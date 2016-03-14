@@ -2,7 +2,7 @@ var Pokemon = {
 	/*Species: {
 		TypeOne: "",
 		TypeTwo: false,
-		Abilities:  ["","","",""],
+		Abilities:  ["","",""],
 		BaseStats: {
 			HP: ,
 			Atk: ,
@@ -344,207 +344,356 @@ var Pokemon = {
 		}
 	}
 	Pidgey: {
-		TypeOne: "",
-		TypeTwo: false,
-		Abilities:  ["","","",""],
+		TypeOne: "Normal",
+		TypeTwo: "Flying",
+		Abilities:  ["Keen Eye","Tangled Feet","Big Pecks"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 40,
+			Atk: 45,
+			Def: 40,
+			SpAtk: 35,
+			SpDef: 35,
+			Speed: 56
 		},
 		FormeChange: {
-			Possible: false,
+			Possible: false
+		}
+	}
+	Pidgeotto: {
+		TypeOne: "Normal",
+		TypeTwo: "Flying",
+		Abilities:  ["Keen Eye","Tangled Feet","Big Pecks"],
+		BaseStats: {
+			HP: 63,
+			Atk: 60,
+			Def: 55,
+			SpAtk: 50,
+			SpDef: 50,
+			Speed: 71
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Pidgeot: {
+		TypeOne: "Normal",
+		TypeTwo: "Flying",
+		Abilities:  ["Keen Eye","Tangled Feet","Big Pecks"],
+		BaseStats: {
+			HP: 83,
+			Atk: 80,
+			Def: 75,
+			SpAtk: 70,
+			SpDef: 70,
+			Speed: 101
+		},
+		FormeChange: {
+			Possible: true,
 			Mega: {
 				N: {
-					TypeOne: "",
-					TypeTwo: false,
-					Ability: "",
+					TypeOne: "Normal",
+					TypeTwo: "Flying",
+					Ability: "No Guard",
 					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
+						HP: 83,
+						Atk: 80,
+						Def: 80,
+						SpAtk: 135,
+						SpDef: 80,
+						Speed: 121
 					}
 				}
 			}
 		}
 	}
-Pidgeotto
-Pidgeot
-Pidgeot
 	Rattata: {
-		TypeOne: "",
+		TypeOne: "Normal",
 		TypeTwo: false,
-		Abilities:  ["","","",""],
+		Abilities:  ["Guts","Run Away","Hustle"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 30,
+			Atk: 56,
+			Def: 35,
+			SpAtk: 25,
+			SpDef: 35,
+			Speed: 72
 		},
 		FormeChange: {
-			Possible: false,
-			Mega: {
-				N: {
-					TypeOne: "",
-					TypeTwo: false,
-					Ability: "",
-					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
-					}
-				}
-			}
+			Possible: false
 		}
 	}
-Raticate
-Spearow
-Fearow
+	Raticate: {
+		TypeOne: "Normal",
+		TypeTwo: false,
+		Abilities:  ["Guts","Run Away","Hustle"],
+		BaseStats: {
+			HP: 55,
+			Atk: 81,
+			Def: 60,
+			SpAtk: 50,
+			SpDef: 70,
+			Speed: 97
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Spearow: {
+		TypeOne: "Normal",
+		TypeTwo: "Flying",
+		Abilities:  ["Keen Eye","Sniper"],
+		BaseStats: {
+			HP: 40,
+			Atk: 60,
+			Def: 30,
+			SpAtk: 31,
+			SpDef: 31,
+			Speed: 70
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Fearow: {
+		TypeOne: "Normal",
+		TypeTwo: "Flying",
+		Abilities:  ["Keen Eye","Sniper"],
+		BaseStats: {
+			HP: 65,
+			Atk: 90,
+			Def: 65,
+			SpAtk: 61,
+			SpDef: 61,
+			Speed: 100
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
 	Ekans: {
-		TypeOne: "",
+		TypeOne: "Poison",
 		TypeTwo: false,
-		Abilities:  ["","","",""],
+		Abilities:  ["Intimidate","Shed Skin","Unnerve"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 35,
+			Atk: 60,
+			Def: 44,
+			SpAtk: 40,
+			SpDef: 54,
+			Speed: 55
 		},
 		FormeChange: {
-			Possible: false,
-			Mega: {
-				N: {
-					TypeOne: "",
-					TypeTwo: false,
-					Ability: "",
-					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
-					}
-				}
-			}
+			Possible: false
 		}
 	}
-Arbok
+	Arbok: {
+		TypeOne: "Poison",
+		TypeTwo: false,
+		Abilities:  ["Intimidate","Shed Skin","Unnerve"],
+		BaseStats: {
+			HP: 60,
+			Atk: 85,
+			Def: 69,
+			SpAtk: 65,
+			SpDef: 79,
+			Speed: 80
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
 	Pikachu: {
-		TypeOne: "",
+		TypeOne: "Electric",
 		TypeTwo: false,
-		Abilities:  ["","","",""],
+		Abilities:  ["Static","Lightning Rod"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 35,
+			Atk: 55,
+			Def: 40,
+			SpAtk: 50,
+			SpDef: 50,
+			Speed: 90
 		},
 		FormeChange: {
-			Possible: false,
-			Mega: {
-				N: {
-					TypeOne: "",
-					TypeTwo: false,
-					Ability: "",
-					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
-					}
-				}
-			}
+			Possible: false
 		}
 	}
-Raichu
-Sandshrew
-Sandslash
+	Raichu: {
+		TypeOne: "Electric",
+		TypeTwo: false,
+		Abilities:  ["Static","Lightning Rod"],
+		BaseStats: {
+			HP: 60,
+			Atk: 90,
+			Def: 55,
+			SpAtk: 90,
+			SpDef: 80,
+			Speed: 110
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Sandshrew: {
+		TypeOne: "Ground",
+		TypeTwo: false,
+		Abilities:  ["Sand Veil","Sand Rush"],
+		BaseStats: {
+			HP: 50,
+			Atk: 75,
+			Def: 85,
+			SpAtk: 20,
+			SpDef: 30,
+			Speed: 40
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Sandslash: {
+		TypeOne: "Ground",
+		TypeTwo: false,
+		Abilities:  ["Sand Veil","Sand Rush"],
+		BaseStats: {
+			HP: 75,
+			Atk: 100,
+			Def: 110,
+			SpAtk: 45,
+			SpDef: 55,
+			Speed: 65
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
 	NidoranF: {
-		TypeOne: "",
+		TypeOne: "Poison",
 		TypeTwo: false,
-		Abilities:  ["","","",""],
+		Abilities:  ["Poison Point","Rivalry","Hustle"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 55,
+			Atk: 47,
+			Def: 52,
+			SpAtk: 40,
+			SpDef: 40,
+			Speed: 41
 		},
 		FormeChange: {
-			Possible: false,
-			Mega: {
-				N: {
-					TypeOne: "",
-					TypeTwo: false,
-					Ability: "",
-					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
-					}
-				}
-			}
+			Possible: false
 		}
 	}
-Nidorina
-Nidoqueen
+	Nidorina: {
+		TypeOne: "Poison",
+		TypeTwo: false,
+		Abilities:  ["Poison Point","Rivalry","Hustle"],
+		BaseStats: {
+			HP: 70,
+			Atk: 62,
+			Def: 67,
+			SpAtk: 55,
+			SpDef: 55,
+			Speed: 56
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Nidoqueen: {
+		TypeOne: "Poison",
+		TypeTwo: "Ground",
+		Abilities:  ["Poison Point","Rivalry","Sheer Force"],
+		BaseStats: {
+			HP: 90,
+			Atk: 92,
+			Def: 87,
+			SpAtk: 75,
+			SpDef: 85,
+			Speed: 76
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
 	NidoranM: {
-		TypeOne: "",
+		TypeOne: "Poison",
 		TypeTwo: false,
-		Abilities:  ["","","",""],
+		Abilities:  ["Poison Point","Rivalry","Hustle"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 46,
+			Atk: 57,
+			Def: 40,
+			SpAtk: 40,
+			SpDef: 40,
+			Speed: 50
 		},
 		FormeChange: {
-			Possible: false,
-			Mega: {
-				N: {
-					TypeOne: "",
-					TypeTwo: false,
-					Ability: "",
-					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
-					}
-				}
-			}
+			Possible: false
 		}
 	}
-Nidorino
-Nidoking
-Clefairy
-Clefable
+	Nidorino: {
+		TypeOne: "Poison",
+		TypeTwo: false,
+		Abilities:  ["Poison Point","Rivalry","Hustle"],
+		BaseStats: {
+			HP: 61,
+			Atk: 72,
+			Def: 57,
+			SpAtk: 55,
+			SpDef: 55,
+			Speed: 65
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Nidoking: {
+		TypeOne: "Poison",
+		TypeTwo: "Ground",
+		Abilities:  ["Poison Point","Rivalry","Sheer Force"],
+		BaseStats: {
+			HP: 81,
+			Atk: 102,
+			Def: 77,
+			SpAtk: 85,
+			SpDef: 75,
+			Speed: 85
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Clefairy: {
+		TypeOne: "Fairy",
+		TypeTwo: false,
+		Abilities:  ["Cute Charm","Magic Guard","Friend Guard"],
+		BaseStats: {
+			HP: 70,
+			Atk: 45,
+			Def: 48,
+			SpAtk: 60,
+			SpDef: 65,
+			Speed: 35
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
+	Clefable: {
+		TypeOne: "Fairy",
+		TypeTwo: false,
+		Abilities:  ["Cute Charm","Magic Guard","Unaware"],
+		BaseStats: {
+			HP: 95,
+			Atk: 70,
+			Def: 73,
+			SpAtk: 95,
+			SpDef: 90,
+			Speed: 60
+		},
+		FormeChange: {
+			Possible: false
+		}
+	}
 	Vulpix: {
 		TypeOne: "",
 		TypeTwo: false,
@@ -1626,3 +1775,4 @@ Dragonair
 Dragonite
 Mewtwo
 Mew
+};

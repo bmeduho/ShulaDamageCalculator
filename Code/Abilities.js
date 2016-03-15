@@ -13,29 +13,39 @@ var Abilities = {
 			}
 		},
 		Exceptions: {
-			
+			AreThere: true/false
 		}
 	},
 	*/
 	Adaptability: {
+		Requirements: {
+			WhoStartsIt: "User",
+		},
 		Effect: {
-			WhoStarts: "User",
 			WhoItEffects: "User",
 			Move: {
 				EffectMove: true,
 				STAB: 2
 			}
+		},
+		Exceptions: {
+			AreThere: false
 		}
 	},
 	Aerilate: {
+		Requirements: {
+			WhoStartsIt: "User",
+		},
 		Effect: {
-			WhoStarts: "User",
 			WhoItEffects: "User",
 			Move: {
 				EffectMove: true,
 				BP: .30,
 				TypeChange: ["Normal","Flying"]
 			}
+		},
+		Exceptions: {
+			AreThere: false
 		}
 	},
 	Aftermath: {

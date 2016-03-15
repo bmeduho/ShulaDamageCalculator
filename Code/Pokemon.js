@@ -1,7 +1,7 @@
 var Pokemon = {
 	/*Species: {
 		Type: ["",""],
-		Abilities:  ["","",""],
+		Ability:  ["","",""],
 		BaseStats: {
 			HP: ,
 			Atk: ,
@@ -31,7 +31,7 @@ var Pokemon = {
 	*/
 	Bulbasaur: {
 		Type: ["Grass","Poison"],
-		Abilities:  ["Overgrow","Chlorophyll"],
+		Ability:  ["Overgrow","Chlorophyll"],
 		BaseStats: {
 			HP: 45,
 			Atk: 49,
@@ -46,7 +46,7 @@ var Pokemon = {
 	},
 	Ivysaur: {
 		Type: ["Grass","Poison"],
-		Abilities: ["Overgrow","Chlorophyll"],
+		Ability: ["Overgrow","Chlorophyll"],
 		BaseStats: {
 			HP: 60,
 			Atk: 62,
@@ -61,7 +61,7 @@ var Pokemon = {
 	},
 	Venusaur: {
 		Type: ["Grass","Poison"],
-		Abilities:  ["Overgrow","Chlorophyll"],
+		Ability:  ["Overgrow","Chlorophyll"],
 		BaseStats: {
 			HP: 80,
 			Atk: 82,
@@ -90,7 +90,7 @@ var Pokemon = {
 	},
 	Charmander: {
 		Type: ["Fire"],
-		Abilities:  ["Blaze","Solar Power"],
+		Ability:  ["Blaze","Solar Power"],
 		BaseStats: {
 			HP: 39,
 			Atk: 52,
@@ -105,7 +105,7 @@ var Pokemon = {
 	},
 	Charmeleon: {
 		Type: ["Fire"],
-		Abilities:  ["Blaze","Solar Power"],
+		Ability:  ["Blaze","Solar Power"],
 		BaseStats: {
 			HP: 58,
 			Atk: 64,
@@ -120,7 +120,7 @@ var Pokemon = {
 	},
 	Charizard: {
 		Type: ["Fire","Flying"],
-		Abilities:  ["Blaze","Solar Power"],
+		Ability:  ["Blaze","Solar Power"],
 		BaseStats: {
 			HP: 78,
 			Atk: 84,
@@ -161,7 +161,7 @@ var Pokemon = {
 	},
 	Squirtle: {
 		Type: ["Water"],
-		Abilities:  ["Forrent","Rain Dish"],
+		Ability:  ["Forrent","Rain Dish"],
 		BaseStats: {
 			HP: 44,
 			Atk: 48,
@@ -176,7 +176,7 @@ var Pokemon = {
 	},
 	Wartortle: {
 		Type: ["Water"],
-		Abilities:  ["Forrent","Rain Dish"],
+		Ability:  ["Forrent","Rain Dish"],
 		BaseStats: {
 			HP: 59,
 			Atk: 63,
@@ -191,7 +191,7 @@ var Pokemon = {
 	},
 	Blastoise: {
 		Type: ["Water"],
-		Abilities:  ["Forrent","Rain Dish"],
+		Ability:  ["Forrent","Rain Dish"],
 		BaseStats: {
 			HP: 79,
 			Atk: 83,
@@ -220,7 +220,7 @@ var Pokemon = {
 	},
 	Caterpie: {
 		Type: ["Bug"],
-		Abilities:  ["Shield Dust","Run Away"],
+		Ability:  ["Shield Dust","Run Away"],
 		BaseStats: {
 			HP: 45,
 			Atk: 30,
@@ -235,7 +235,7 @@ var Pokemon = {
 	},
 	Metapod: {
 		Type: ["Bug"],
-		Abilities:  ["Shed Skin"],
+		Ability:  ["Shed Skin"],
 		BaseStats: {
 			HP: 50,
 			Atk: 20,
@@ -250,7 +250,7 @@ var Pokemon = {
 	},
 	Butterfree: {
 		Type: ["Bug","Flying"],
-		Abilities:  ["Compound Eyes","Tinted Lens"],
+		Ability:  ["Compound Eyes","Tinted Lens"],
 		BaseStats: {
 			HP: 60,
 			Atk: 45,
@@ -265,7 +265,7 @@ var Pokemon = {
 	},
 	Weedle: {
 		Type: ["Bug","Poison"],
-		Abilities:  ["Sheild Dust","Run Away"],
+		Ability:  ["Sheild Dust","Run Away"],
 		BaseStats: {
 			HP: 40,
 			Atk: 35,
@@ -280,7 +280,7 @@ var Pokemon = {
 	},
 	Kakuna: {
 		Type: ["Bug","Poison"],
-		Abilities:  ["Shed Skin"],
+		Ability:  ["Shed Skin"],
 		BaseStats: {
 			HP: 45,
 			Atk: 25,
@@ -295,7 +295,7 @@ var Pokemon = {
 	},
 	Beedrill: {
 		Type: ["Bug","Poison"],
-		Abilities:  ["Swarm","Sniper"],
+		Ability:  ["Swarm","Sniper"],
 		BaseStats: {
 			HP: 65,
 			Atk: 90,
@@ -324,7 +324,7 @@ var Pokemon = {
 	},
 	Pidgey: {
 		Type: ["Normal","Flying"],
-		Abilities:  ["Keen Eye","Tangled Feet","Big Pecks"],
+		Ability:  ["Keen Eye","Tangled Feet","Big Pecks"],
 		BaseStats: {
 			HP: 40,
 			Atk: 45,
@@ -339,7 +339,7 @@ var Pokemon = {
 	},
 	Pidgeotto: {
 		Type: ["Normal","Flying"],
-		Abilities:  ["Keen Eye","Tangled Feet","Big Pecks"],
+		Ability:  ["Keen Eye","Tangled Feet","Big Pecks"],
 		BaseStats: {
 			HP: 63,
 			Atk: 60,
@@ -354,7 +354,7 @@ var Pokemon = {
 	},
 	Pidgeot: {
 		Type: ["Normal","Flying"],
-		Abilities:  ["Keen Eye","Tangled Feet","Big Pecks"],
+		Ability:  ["Keen Eye","Tangled Feet","Big Pecks"],
 		BaseStats: {
 			HP: 83,
 			Atk: 80,
@@ -383,7 +383,7 @@ var Pokemon = {
 	},
 	Rattata: {
 		Type: ["Normal"],
-		Abilities:  ["Guts","Run Away","Hustle"],
+		Ability:  ["Guts","Run Away","Hustle"],
 		BaseStats: {
 			HP: 30,
 			Atk: 56,
@@ -398,7 +398,7 @@ var Pokemon = {
 	},
 	Raticate: {
 		Type: ["Normal"],
-		Abilities:  ["Guts","Run Away","Hustle"],
+		Ability:  ["Guts","Run Away","Hustle"],
 		BaseStats: {
 			HP: 55,
 			Atk: 81,
@@ -413,7 +413,7 @@ var Pokemon = {
 	},
 	Spearow: {
 		Type: ["Normal","Flying"],
-		Abilities:  ["Keen Eye","Sniper"],
+		Ability:  ["Keen Eye","Sniper"],
 		BaseStats: {
 			HP: 40,
 			Atk: 60,
@@ -428,7 +428,7 @@ var Pokemon = {
 	},
 	Fearow: {
 		Type: ["Normal","Flying"],
-		Abilities:  ["Keen Eye","Sniper"],
+		Ability:  ["Keen Eye","Sniper"],
 		BaseStats: {
 			HP: 65,
 			Atk: 90,
@@ -443,7 +443,7 @@ var Pokemon = {
 	},
 	Ekans: {
 		Type: ["Poison"],
-		Abilities:  ["Intimidate","Shed Skin","Unnerve"],
+		Ability:  ["Intimidate","Shed Skin","Unnerve"],
 		BaseStats: {
 			HP: 35,
 			Atk: 60,
@@ -458,7 +458,7 @@ var Pokemon = {
 	},
 	Arbok: {
 		Type: ["Poison"],
-		Abilities:  ["Intimidate","Shed Skin","Unnerve"],
+		Ability:  ["Intimidate","Shed Skin","Unnerve"],
 		BaseStats: {
 			HP: 60,
 			Atk: 85,
@@ -473,7 +473,7 @@ var Pokemon = {
 	},
 	Pikachu: {
 		Type: ["Electric"],
-		Abilities:  ["Static","Lightning Rod"],
+		Ability:  ["Static","Lightning Rod"],
 		BaseStats: {
 			HP: 35,
 			Atk: 55,
@@ -488,7 +488,7 @@ var Pokemon = {
 	},
 	Raichu: {
 		Type: ["Electric"],
-		Abilities:  ["Static","Lightning Rod"],
+		Ability:  ["Static","Lightning Rod"],
 		BaseStats: {
 			HP: 60,
 			Atk: 90,
@@ -503,7 +503,7 @@ var Pokemon = {
 	},
 	Sandshrew: {
 		Type: ["Ground"],
-		Abilities:  ["Sand Veil","Sand Rush"],
+		Ability:  ["Sand Veil","Sand Rush"],
 		BaseStats: {
 			HP: 50,
 			Atk: 75,
@@ -518,7 +518,7 @@ var Pokemon = {
 	},
 	Sandslash: {
 		Type: ["Ground"],
-		Abilities:  ["Sand Veil","Sand Rush"],
+		Ability:  ["Sand Veil","Sand Rush"],
 		BaseStats: {
 			HP: 75,
 			Atk: 100,
@@ -533,7 +533,7 @@ var Pokemon = {
 	},
 	NidoranF: {
 		Type: ["Poison"],
-		Abilities:  ["Poison Point","Rivalry","Hustle"],
+		Ability:  ["Poison Point","Rivalry","Hustle"],
 		BaseStats: {
 			HP: 55,
 			Atk: 47,
@@ -548,7 +548,7 @@ var Pokemon = {
 	},
 	Nidorina: {
 		Type: ["Poison"],
-		Abilities:  ["Poison Point","Rivalry","Hustle"],
+		Ability:  ["Poison Point","Rivalry","Hustle"],
 		BaseStats: {
 			HP: 70,
 			Atk: 62,
@@ -563,7 +563,7 @@ var Pokemon = {
 	},
 	Nidoqueen: {
 		Type: ["Poison","Ground"],
-		Abilities:  ["Poison Point","Rivalry","Sheer Force"],
+		Ability:  ["Poison Point","Rivalry","Sheer Force"],
 		BaseStats: {
 			HP: 90,
 			Atk: 92,
@@ -578,7 +578,7 @@ var Pokemon = {
 	},
 	NidoranM: {
 		Type: ["Poison"],
-		Abilities:  ["Poison Point","Rivalry","Hustle"],
+		Ability:  ["Poison Point","Rivalry","Hustle"],
 		BaseStats: {
 			HP: 46,
 			Atk: 57,
@@ -593,7 +593,7 @@ var Pokemon = {
 	},
 	Nidorino: {
 		Type: ["Poison"],
-		Abilities:  ["Poison Point","Rivalry","Hustle"],
+		Ability:  ["Poison Point","Rivalry","Hustle"],
 		BaseStats: {
 			HP: 61,
 			Atk: 72,
@@ -608,7 +608,7 @@ var Pokemon = {
 	},
 	Nidoking: {
 		Type: ["Poison","Ground"],
-		Abilities:  ["Poison Point","Rivalry","Sheer Force"],
+		Ability:  ["Poison Point","Rivalry","Sheer Force"],
 		BaseStats: {
 			HP: 81,
 			Atk: 102,
@@ -623,7 +623,7 @@ var Pokemon = {
 	},
 	Clefairy: {
 		Type: ["Fairy"],
-		Abilities:  ["Cute Charm","Magic Guard","Friend Guard"],
+		Ability:  ["Cute Charm","Magic Guard","Friend Guard"],
 		BaseStats: {
 			HP: 70,
 			Atk: 45,
@@ -638,7 +638,7 @@ var Pokemon = {
 	},
 	Clefable: {
 		Type: ["Fairy"],
-		Abilities:  ["Cute Charm","Magic Guard","Unaware"],
+		Ability:  ["Cute Charm","Magic Guard","Unaware"],
 		BaseStats: {
 			HP: 95,
 			Atk: 70,
@@ -653,7 +653,7 @@ var Pokemon = {
 	},
 	Vulpix: {
 		Type: ["Fire"],
-		Abilities:  ["Flash Fire","Drought","",""],
+		Ability:  ["Flash Fire","Drought","",""],
 		BaseStats: {
 			HP: 38,
 			Atk: 41,
@@ -668,7 +668,7 @@ var Pokemon = {
 	},
 	Ninetales: {
 		Type: ["Fire"],
-		Abilities:  ["Flash Fire","Drought","",""],
+		Ability:  ["Flash Fire","Drought","",""],
 		BaseStats: {
 			HP: 73,
 			Atk: 76,
@@ -683,7 +683,7 @@ var Pokemon = {
 	},
 	Jigglypuff: {
 		Type: ["Normal","Fairy"],
-		Abilities:  ["Competitive","Cute Charm","Friend Guard"],
+		Ability:  ["Competitive","Cute Charm","Friend Guard"],
 		BaseStats: {
 			HP: 115,
 			Atk: 45,
@@ -698,7 +698,7 @@ var Pokemon = {
 	},
 	Wigglytuff: {
 		Type: ["Normal","Fairy"],
-		Abilities:  ["Competitive","Cute Charm","Frisk"],
+		Ability:  ["Competitive","Cute Charm","Frisk"],
 		BaseStats: {
 			HP: 40,
 			Atk: 70,
@@ -713,7 +713,7 @@ var Pokemon = {
 	},
 	Zubat: {
 		Type: ["Poison","Flying"],
-		Abilities:  ["Inner Focus","Infiltrator"],
+		Ability:  ["Inner Focus","Infiltrator"],
 		BaseStats: {
 			HP: 40,
 			Atk: 45,
@@ -728,7 +728,7 @@ var Pokemon = {
 	},
 	Golbat: {
 		Type: ["Poison","Flying"],
-		Abilities:  ["Inner Focus","Infiltrator"],
+		Ability:  ["Inner Focus","Infiltrator"],
 		BaseStats: {
 			HP: 75,
 			Atk: 80,
@@ -743,7 +743,7 @@ var Pokemon = {
 	},
 	Oddish: {
 		Type: ["Grass","Poison"],
-		Abilities:  ["Chlorophyll","Run Away"],
+		Ability:  ["Chlorophyll","Run Away"],
 		BaseStats: {
 			HP: 45,
 			Atk: 50,
@@ -758,7 +758,7 @@ var Pokemon = {
 	},
 	Gloom: {
 		Type: ["Grass","Poison"],
-		Abilities:  ["Chlorophyll","Stench"],
+		Ability:  ["Chlorophyll","Stench"],
 		BaseStats: {
 			HP: 60,
 			Atk: 65,
@@ -773,7 +773,7 @@ var Pokemon = {
 	},
 	Vileplume: {
 		Type: ["Grass","Poison"],
-		Abilities:  ["Chlorophyll","Effect Spore"],
+		Ability:  ["Chlorophyll","Effect Spore"],
 		BaseStats: {
 			HP: 75,
 			Atk: 80,
@@ -788,7 +788,7 @@ var Pokemon = {
 	},
 	Paras: {
 		Type: ["Bug","Grass"],
-		Abilities:  ["Dry Skin","Effect Spore","Damp"],
+		Ability:  ["Dry Skin","Effect Spore","Damp"],
 		BaseStats: {
 			HP: 35,
 			Atk: 70,
@@ -803,7 +803,7 @@ var Pokemon = {
 	},
 	Parasect: {
 		Type: ["Bug","Grass"],
-		Abilities:  ["Dry Skin","Effect Spore","Damp"],
+		Ability:  ["Dry Skin","Effect Spore","Damp"],
 		BaseStats: {
 			HP: 60,
 			Atk: 95,
@@ -818,7 +818,7 @@ var Pokemon = {
 	},
 	Venonat: {
 		Type: ["Bug","Poison"],
-		Abilities:  ["Compound Eyes","Tinted Lens","Run Away"],
+		Ability:  ["Compound Eyes","Tinted Lens","Run Away"],
 		BaseStats: {
 			HP: 60,
 			Atk: 55,
@@ -833,7 +833,7 @@ var Pokemon = {
 	},
 	Venomoth: {
 		Type: ["Bug","Poison"],
-		Abilities:  ["Shield Dust","Tinted Lens","Wonder Skin"],
+		Ability:  ["Shield Dust","Tinted Lens","Wonder Skin"],
 		BaseStats: {
 			HP: 70,
 			Atk: 65,
@@ -848,7 +848,7 @@ var Pokemon = {
 	},
 	Diglett: {
 		Type: ["Ground"],
-		Abilities:  ["Arena Trap","Sand Veil","Sand Force"],
+		Ability:  ["Arena Trap","Sand Veil","Sand Force"],
 		BaseStats: {
 			HP: 10,
 			Atk: 55,
@@ -863,7 +863,7 @@ var Pokemon = {
 	},
 	Dugtrio: {
 		Type: ["Ground"],
-		Abilities:  ["Arena Trap","Sand Veil","Sand Force"],
+		Ability:  ["Arena Trap","Sand Veil","Sand Force"],
 		BaseStats: {
 			HP: 35,
 			Atk: 80,
@@ -878,7 +878,7 @@ var Pokemon = {
 	},
 	Meowth: {
 		Type: ["Normal"],
-		Abilities:  ["Pickup","Technician","Unnerve"],
+		Ability:  ["Pickup","Technician","Unnerve"],
 		BaseStats: {
 			HP: 40,
 			Atk: 45,
@@ -893,7 +893,7 @@ var Pokemon = {
 	},
 	Persian: {
 		Type: ["Normal"],
-		Abilities:  ["Limber","Technician","Unnerve"],
+		Ability:  ["Limber","Technician","Unnerve"],
 		BaseStats: {
 			HP: 65,
 			Atk: 70,
@@ -908,7 +908,7 @@ var Pokemon = {
 	},
 	Psyduck: {
 		Type: ["Water"],
-		Abilities:  ["Cloud Nine","Damp","Swift Swim"],
+		Ability:  ["Cloud Nine","Damp","Swift Swim"],
 		BaseStats: {
 			HP: 50,
 			Atk: 52,
@@ -923,7 +923,7 @@ var Pokemon = {
 	},
 	Golduck: {
 		Type: ["Water"],
-		Abilities:  ["Cloud Nine","Damp","Swift Swim"],
+		Ability:  ["Cloud Nine","Damp","Swift Swim"],
 		BaseStats: {
 			HP: 80,
 			Atk: 82,
@@ -938,7 +938,7 @@ var Pokemon = {
 	},
 	Mankey: {
 		Type: ["Fighting"],
-		Abilities:  ["Anger Point","Vital Spirit","Defiant"],
+		Ability:  ["Anger Point","Vital Spirit","Defiant"],
 		BaseStats: {
 			HP: 40,
 			Atk: 80,
@@ -953,7 +953,7 @@ var Pokemon = {
 	},
 	Primeape: {
 		Type: ["Fighting"],
-		Abilities:  ["Anger Point","Vital Spirit","Defiant"],
+		Ability:  ["Anger Point","Vital Spirit","Defiant"],
 		BaseStats: {
 			HP: 65,
 			Atk: 105,
@@ -968,7 +968,7 @@ var Pokemon = {
 	},
 	Growlithe: {
 		Type: ["Fire"],
-		Abilities:  ["Flash Fire","Intimidate","Justified"],
+		Ability:  ["Flash Fire","Intimidate","Justified"],
 		BaseStats: {
 			HP: 55,
 			Atk: 70,
@@ -983,7 +983,7 @@ var Pokemon = {
 	},
 	Arcanine: {
 		Type: ["Fire"],
-		Abilities:  ["Flash Fire","Intimidate","Justified"],
+		Ability:  ["Flash Fire","Intimidate","Justified"],
 		BaseStats: {
 			HP: 90,
 			Atk: 110,
@@ -998,7 +998,7 @@ var Pokemon = {
 	},
 	Poliwag: {
 		Type: ["Water"],
-		Abilities:  ["Damp","Water Absorb","Swift Swim"],
+		Ability:  ["Damp","Water Absorb","Swift Swim"],
 		BaseStats: {
 			HP: 40,
 			Atk: 50,
@@ -1013,7 +1013,7 @@ var Pokemon = {
 	},
 	Poliwhirl: {
 		Type: ["Water"],
-		Abilities:  ["Damp","Water Absorb","Swift Swim"],
+		Ability:  ["Damp","Water Absorb","Swift Swim"],
 		BaseStats: {
 			HP: 65,
 			Atk: 65,
@@ -1028,7 +1028,7 @@ var Pokemon = {
 	},
 	Poliwrath: {
 		Type: ["Water","Fighting"],
-		Abilities:  ["Damp","Water Absorb","Swift Swim"],
+		Ability:  ["Damp","Water Absorb","Swift Swim"],
 		BaseStats: {
 			HP: 90,
 			Atk: 95,
@@ -1043,7 +1043,7 @@ var Pokemon = {
 	},
 	Abra: {
 		Type: ["Psychic"],
-		Abilities:  ["Inner Focus","Synchronize","Magic Guard"],
+		Ability:  ["Inner Focus","Synchronize","Magic Guard"],
 		BaseStats: {
 			HP: 25,
 			Atk: 20,
@@ -1058,7 +1058,7 @@ var Pokemon = {
 	},
 	Kadabra: {
 		Type: ["Psychic"],
-		Abilities:  ["Inner Focus","Synchronize","Magic Guard"],
+		Ability:  ["Inner Focus","Synchronize","Magic Guard"],
 		BaseStats: {
 			HP: 40,
 			Atk: 35,
@@ -1073,7 +1073,7 @@ var Pokemon = {
 	},
 	Alakazam: {
 		Type: ["Psychic"],
-		Abilities:  ["Inner Focus","Synchronize","Magic Guard"],
+		Ability:  ["Inner Focus","Synchronize","Magic Guard"],
 		BaseStats: {
 			HP: 55,
 			Atk: 50,
@@ -1102,7 +1102,7 @@ var Pokemon = {
 	},
 	Machop: {
 		Type: ["Fighting"],
-		Abilities:  ["Guts","No Guard","Steadfast"],
+		Ability:  ["Guts","No Guard","Steadfast"],
 		BaseStats: {
 			HP: 70,
 			Atk: 80,
@@ -1117,7 +1117,7 @@ var Pokemon = {
 	},
 	Machoke: {
 		Type: ["Fighting"],
-		Abilities:  ["Guts","No Guard","Steadfast"],
+		Ability:  ["Guts","No Guard","Steadfast"],
 		BaseStats: {
 			HP: 80,
 			Atk: 100,
@@ -1132,7 +1132,7 @@ var Pokemon = {
 	},
 	Machamp: {
 		Type: ["Fighting"],
-		Abilities:  ["Guts","No Guard","Steadfast"],
+		Ability:  ["Guts","No Guard","Steadfast"],
 		BaseStats: {
 			HP: 90,
 			Atk: 130,
@@ -1147,7 +1147,7 @@ var Pokemon = {
 	},
 	Bellsprout: {
 		Type: ["Grass","Poison"],
-		Abilities:  ["Chlorophyll","Gluttony"],
+		Ability:  ["Chlorophyll","Gluttony"],
 		BaseStats: {
 			HP: 50,
 			Atk: 75,
@@ -1162,7 +1162,7 @@ var Pokemon = {
 	},
 	Weepinbell: {
 		Type: ["Grass","Poison"],
-		Abilities:  ["Chlorophyll","Gluttony"],
+		Ability:  ["Chlorophyll","Gluttony"],
 		BaseStats: {
 			HP: 65,
 			Atk: 90,
@@ -1177,7 +1177,7 @@ var Pokemon = {
 	},
 	Victreebel: {
 		Type: ["Grass","Poison"],
-		Abilities:  ["Chlorophyll","Gluttony"],
+		Ability:  ["Chlorophyll","Gluttony"],
 		BaseStats: {
 			HP: 80,
 			Atk: 105,
@@ -1192,7 +1192,7 @@ var Pokemon = {
 	},
 	Tentacool: {
 		Type: ["Water","Poison"],
-		Abilities:  ["Clear Body","Liquid Ooze","Rain Dish"],
+		Ability:  ["Clear Body","Liquid Ooze","Rain Dish"],
 		BaseStats: {
 			HP: 40,
 			Atk: 40,
@@ -1207,7 +1207,7 @@ var Pokemon = {
 	},
 	Tentacruel: {
 		Type: ["Water","Poison"],
-		Abilities:  ["Clear Body","Liquid Ooze","Rain Dish"],
+		Ability:  ["Clear Body","Liquid Ooze","Rain Dish"],
 		BaseStats: {
 			HP: 80,
 			Atk: 70,
@@ -1222,7 +1222,7 @@ var Pokemon = {
 	},
 	Geodude: {
 		Type: ["Rock","Ground"],
-		Abilities:  ["Rock Head","Sturdy","Sand Veil"],
+		Ability:  ["Rock Head","Sturdy","Sand Veil"],
 		BaseStats: {
 			HP: 40,
 			Atk: 80,
@@ -1237,7 +1237,7 @@ var Pokemon = {
 	},
 	Graveler: {
 		Type: ["Rock","Ground"],
-		Abilities:  ["Rock Head","Sturdy","Sand Veil"],
+		Ability:  ["Rock Head","Sturdy","Sand Veil"],
 		BaseStats: {
 			HP: 55,
 			Atk: 95,
@@ -1252,7 +1252,7 @@ var Pokemon = {
 	},
 	Golem: {
 		Type: ["Rock","Ground"],
-		Abilities:  ["Rock Head","Sturdy","Sand Veil"],
+		Ability:  ["Rock Head","Sturdy","Sand Veil"],
 		BaseStats: {
 			HP: 80,
 			Atk: 120,
@@ -1267,7 +1267,7 @@ var Pokemon = {
 	},
 	Ponyta: {
 		Type: ["Fire"],
-		Abilities:  ["Flash Fire","Run Away","Flame Body"],
+		Ability:  ["Flash Fire","Run Away","Flame Body"],
 		BaseStats: {
 			HP: 50,
 			Atk: 85,
@@ -1282,7 +1282,7 @@ var Pokemon = {
 	},
 	Rapidash: {
 		Type: ["Fire"],
-		Abilities:  ["Flash Fire","Run Away","Flame Body"],
+		Ability:  ["Flash Fire","Run Away","Flame Body"],
 		BaseStats: {
 			HP: 65,
 			Atk: 100,
@@ -1297,7 +1297,7 @@ var Pokemon = {
 	},
 	Slowpoke: {
 		Type: ["Water","Psychic"],
-		Abilities:  ["Oblivious","Own Tempo","Regenerator"],
+		Ability:  ["Oblivious","Own Tempo","Regenerator"],
 		BaseStats: {
 			HP: 90,
 			Atk: 65,
@@ -1312,7 +1312,7 @@ var Pokemon = {
 	},
 	Slowbro: {
 		Type: ["Water","Psychic"],
-		Abilities:  ["","",""],
+		Ability:  ["","",""],
 		BaseStats: {
 			HP: 95,
 			Atk: 75,
@@ -1341,7 +1341,7 @@ var Pokemon = {
 	},
 	Magnemite: {
 		Type: ["Electric","Steel"],
-		Abilities:  ["Magnet Pull","Sturdy","Analytic"],
+		Ability:  ["Magnet Pull","Sturdy","Analytic"],
 		BaseStats: {
 			HP: 25,
 			Atk: 35,
@@ -1356,7 +1356,7 @@ var Pokemon = {
 	},
 	Magneton: {
 		Type: ["Electric","Steel"],
-		Abilities:  ["Magnet Pull","Sturdy","Analytic"],
+		Ability:  ["Magnet Pull","Sturdy","Analytic"],
 		BaseStats: {
 			HP: 50,
 			Atk: 60,
@@ -1371,7 +1371,7 @@ var Pokemon = {
 	},
 	Farfetchd: {
 		Type: ["Normal","Flying"],
-		Abilities:  ["Inner Focus","Keen Eye","Defiant"],
+		Ability:  ["Inner Focus","Keen Eye","Defiant"],
 		BaseStats: {
 			HP: 52,
 			Atk: 65,
@@ -1386,7 +1386,7 @@ var Pokemon = {
 	},
 	Doduo: {
 		Type: ["Normal","Flying"],
-		Abilities:  ["Early Bird","Run Away","Tangled Feet"],
+		Ability:  ["Early Bird","Run Away","Tangled Feet"],
 		BaseStats: {
 			HP: 35,
 			Atk: 85,
@@ -1401,7 +1401,7 @@ var Pokemon = {
 	},
 	Dodrio: {
 		Type: ["Normal","Flying"],
-		Abilities:  ["Early Bird","Run Away","Tangled Feet"],
+		Ability:  ["Early Bird","Run Away","Tangled Feet"],
 		BaseStats: {
 			HP: 60,
 			Atk: 110,
@@ -1416,7 +1416,7 @@ var Pokemon = {
 	},
 	Seel: {
 		Type: ["Water"],
-		Abilities:  ["Hydration","Thick Fat","Ice Body"],
+		Ability:  ["Hydration","Thick Fat","Ice Body"],
 		BaseStats: {
 			HP: 65,
 			Atk: 45,
@@ -1431,7 +1431,7 @@ var Pokemon = {
 	},
 	Dewgong: {
 		Type: ["Water","Ice"],
-		Abilities:  ["Hydration","Thick Fat","Ice Body"],
+		Ability:  ["Hydration","Thick Fat","Ice Body"],
 		BaseStats: {
 			HP: 90,
 			Atk: 70,
@@ -1446,7 +1446,7 @@ var Pokemon = {
 	},
 	Grimer: {
 		Type: ["Poison"],
-		Abilities:  ["Stench","Sticky Hold","Poison Touch"],
+		Ability:  ["Stench","Sticky Hold","Poison Touch"],
 		BaseStats: {
 			HP: 80,
 			Atk: 80,
@@ -1461,7 +1461,7 @@ var Pokemon = {
 	},
 	Muk: {
 		Type: ["Poison"],
-		Abilities:  ["Stench","Sticky Hold","Poison Touch"],
+		Ability:  ["Stench","Sticky Hold","Poison Touch"],
 		BaseStats: {
 			HP: 105,
 			Atk: 105,
@@ -1476,7 +1476,7 @@ var Pokemon = {
 	},
 	Shellder: {
 		Type: ["Water"],
-		Abilities:  ["Shell Armor","Skill Link","Overcoat"],
+		Ability:  ["Shell Armor","Skill Link","Overcoat"],
 		BaseStats: {
 			HP: 30,
 			Atk: 65,
@@ -1491,7 +1491,7 @@ var Pokemon = {
 	},
 	Cloyster: {
 		Type: ["Water","Ice"],
-		Abilities:  ["Shell Armor","Skill Link","Overcoat"],
+		Ability:  ["Shell Armor","Skill Link","Overcoat"],
 		BaseStats: {
 			HP: 50,
 			Atk: 95,
@@ -1506,7 +1506,7 @@ var Pokemon = {
 	},
 	Gastly: {
 		Type: ["Ghost","Poison"],
-		Abilities:  ["Levitate"],
+		Ability:  ["Levitate"],
 		BaseStats: {
 			HP: 30,
 			Atk: 35,
@@ -1521,7 +1521,7 @@ var Pokemon = {
 	},
 	Haunter: {
 		Type: ["Ghost","Poison"],
-		Abilities:  ["Levitate"],
+		Ability:  ["Levitate"],
 		BaseStats: {
 			HP: 45,
 			Atk: 50,
@@ -1536,7 +1536,7 @@ var Pokemon = {
 	},
 	Gengar: {
 		Type: ["Ghost","Poison"],
-		Abilities:  ["Levitate"],
+		Ability:  ["Levitate"],
 		BaseStats: {
 			HP: 60,
 			Atk: 65,
@@ -1550,7 +1550,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Ghost","Poison"],
-					Abilities:  ["Shadow Tag"],
+					Ability:  ["Shadow Tag"],
 					BaseStats: {
 						HP: 60,
 						Atk: 65,
@@ -1565,7 +1565,7 @@ var Pokemon = {
 	},
 	Onix: {
 		Type: ["Rock","Ground"],
-		Abilities:  ["Rock Head","Sturdy","Weak Armor"],
+		Ability:  ["Rock Head","Sturdy","Weak Armor"],
 		BaseStats: {
 			HP: 35,
 			Atk: 45,
@@ -1580,7 +1580,7 @@ var Pokemon = {
 	},
 	Drowzee: {
 		Type: ["Psychic"],
-		Abilities:  ["Forewarn","Insomnia","Inner Focus"],
+		Ability:  ["Forewarn","Insomnia","Inner Focus"],
 		BaseStats: {
 			HP: 60,
 			Atk: 48,
@@ -1595,7 +1595,7 @@ var Pokemon = {
 	},
 	Hypno: {
 		Type: ["Psychic"],
-		Abilities:  ["Forewarn","Insomnia","Inner Focus"],
+		Ability:  ["Forewarn","Insomnia","Inner Focus"],
 		BaseStats: {
 			HP: 85,
 			Atk: 73,
@@ -1610,7 +1610,7 @@ var Pokemon = {
 	},
 	Krabby: {
 		Type: ["Water"],
-		Abilities:  ["Hyper Cutter","Shell Armor","Sheer Force"],
+		Ability:  ["Hyper Cutter","Shell Armor","Sheer Force"],
 		BaseStats: {
 			HP: 30,
 			Atk: 105,
@@ -1625,7 +1625,7 @@ var Pokemon = {
 	},
 	Kingler: {
 		Type: ["Water",""],
-		Abilities:  ["Hyper Cutter","Shell Armor","Sheer Force"],
+		Ability:  ["Hyper Cutter","Shell Armor","Sheer Force"],
 		BaseStats: {
 			HP: 55,
 			Atk: 130,
@@ -1640,7 +1640,7 @@ var Pokemon = {
 	},
 	Voltorb: {
 		Type: ["Electric"],
-		Abilities:  ["Soundproof","Static","Aftermath"],
+		Ability:  ["Soundproof","Static","Aftermath"],
 		BaseStats: {
 			HP: 40,
 			Atk: 30,
@@ -1655,7 +1655,7 @@ var Pokemon = {
 	},
 	Electrode: {
 		Type: ["Electric"],
-		Abilities:  ["Soundproof","Static","Aftermath"],
+		Ability:  ["Soundproof","Static","Aftermath"],
 		BaseStats: {
 			HP: 60,
 			Atk: 50,
@@ -1670,7 +1670,7 @@ var Pokemon = {
 	},
 	Exeggcute: {
 		Type: ["Grass","Psychic"],
-		Abilities:  ["Chlorophyll","Harvest"],
+		Ability:  ["Chlorophyll","Harvest"],
 		BaseStats: {
 			HP: 60,
 			Atk: 40,
@@ -1685,7 +1685,7 @@ var Pokemon = {
 	},
 	Exeggutor: {
 		Type: ["Grass","Psychic"],
-		Abilities:  ["Chlorophyll","Harvest"],
+		Ability:  ["Chlorophyll","Harvest"],
 		BaseStats: {
 			HP: 95,
 			Atk: 95,
@@ -1700,7 +1700,7 @@ var Pokemon = {
 	},
 	Cubone: {
 		Type: ["Ground"],
-		Abilities:  ["Lightning Rod","Rock Head","Battle Armor"],
+		Ability:  ["Lightning Rod","Rock Head","Battle Armor"],
 		BaseStats: {
 			HP: 50,
 			Atk: 50,
@@ -1715,7 +1715,7 @@ var Pokemon = {
 	},
 	Marowak: {
 		Type: ["Ground"],
-		Abilities:  ["Lightning Rod","Rock Head","Battle Armor"],
+		Ability:  ["Lightning Rod","Rock Head","Battle Armor"],
 		BaseStats: {
 			HP: 60,
 			Atk: 80,
@@ -1730,7 +1730,7 @@ var Pokemon = {
 	},
 	Hitmonlee: {
 		Type: ["Fighting"],
-		Abilities:  ["Limber","Reckless","Unburden"],
+		Ability:  ["Limber","Reckless","Unburden"],
 		BaseStats: {
 			HP: 50,
 			Atk: 120,
@@ -1745,7 +1745,7 @@ var Pokemon = {
 	},
 	Hitmonchan: {
 		Type: ["Fighting"],
-		Abilities:  ["Iron Fist","Keen Eye","Inner Focus"],
+		Ability:  ["Iron Fist","Keen Eye","Inner Focus"],
 		BaseStats: {
 			HP: 50,
 			Atk: 105,
@@ -1760,7 +1760,7 @@ var Pokemon = {
 	},
 	Lickitung: {
 		Type: ["Normal"],
-		Abilities:  ["Oblivious","Own Tempo","Cloud Nine"],
+		Ability:  ["Oblivious","Own Tempo","Cloud Nine"],
 		BaseStats: {
 			HP: 90,
 			Atk: 55,
@@ -1775,7 +1775,7 @@ var Pokemon = {
 	},
 	Koffing: {
 		Type: ["Poison"],
-		Abilities:  ["Levitate"],
+		Ability:  ["Levitate"],
 		BaseStats: {
 			HP: 40,
 			Atk: 65,
@@ -1790,7 +1790,7 @@ var Pokemon = {
 	},
 	Weezing: {
 		Type: ["Poison"],
-		Abilities:  ["Levitate"],
+		Ability:  ["Levitate"],
 		BaseStats: {
 			HP: 65,
 			Atk: 90,
@@ -1805,7 +1805,7 @@ var Pokemon = {
 	},
 	Rhyhorn: {
 		Type: ["Ground","Rock"],
-		Abilities:  ["Lightning Rod","Rock Head","Reckless"],
+		Ability:  ["Lightning Rod","Rock Head","Reckless"],
 		BaseStats: {
 			HP: 80,
 			Atk: 85,
@@ -1817,10 +1817,10 @@ var Pokemon = {
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Rhydon: {
 		Type: ["Ground","Rock"],
-		Abilities:  ["Lightning Rod","Rock Head","Reckless"],
+		Ability:  ["Lightning Rod","Rock Head","Reckless"],
 		BaseStats: {
 			HP: 105,
 			Atk: 130,
@@ -1835,7 +1835,7 @@ var Pokemon = {
 	},
 	Chansey: {
 		Type: ["Normal"],
-		Abilities:  ["Natural Cure","Serene Grace","Healer"],
+		Ability:  ["Natural Cure","Serene Grace","Healer"],
 		BaseStats: {
 			HP: 250,
 			Atk: 5,
@@ -1847,10 +1847,10 @@ var Pokemon = {
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Tangela: {
 		Type: ["Grass"],
-		Abilities:  ["Chlorophyll","Leaf Guard","Regenerator"],
+		Ability:  ["Chlorophyll","Leaf Guard","Regenerator"],
 		BaseStats: {
 			HP: 65,
 			Atk: 55,
@@ -1865,7 +1865,7 @@ var Pokemon = {
 	},
 	Kangaskhan: {
 		Type: ["Normal"],
-		Abilities:  ["Early Bird","Scrappy","Inner Focus"],
+		Ability:  ["Early Bird","Scrappy","Inner Focus"],
 		BaseStats: {
 			HP: 105,
 			Atk: 95,
@@ -1893,609 +1893,608 @@ var Pokemon = {
 		}
 	},
 	Horsea: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Water"],
+		Ability:  ["Sniper","Swift Swim","Damp"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 30,
+			Atk: 40,
+			Def: 70,
+			SpAtk: 70,
+			SpDef: 25,
+			Speed: 60
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Seadra: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Water"],
+		Ability:  ["Poison Point","Sniper","Damp"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 55,
+			Atk: 65,
+			Def: 95,
+			SpAtk: 95,
+			SpDef: 45,
+			Speed: 85
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Goldeen: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Water"],
+		Ability:  ["Swift Swim","Water Veil","Lightning Rod"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 45,
+			Atk: 67,
+			Def: 60,
+			SpAtk: 35,
+			SpDef: 50,
+			Speed: 63
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Seaking: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Water"],
+		Ability:  ["Swift Swim","Water Veil","Lightning Rod"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 80,
+			Atk: 92,
+			Def: 65,
+			SpAtk: 65,
+			SpDef: 80,
+			Speed: 68
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Staryu: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Water"],
+		Ability:  ["Illuminate","Natural Cure","Analytic"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
-		},
-		FormeChange: {
-			Possible: false
-		}
-	}
-	Starmie: {
-		Type: ["",""],
-		Abilities:  ["","",""],
-		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 30,
+			Atk: 45,
+			Def: 55,
+			SpAtk: 70,
+			SpDef: 55,
+			Speed: 85
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
-	Mr. Mime: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+	Starmie: {
+		Type: ["Water"],
+		Ability:  ["Illuminate","Natural Cure","Analytic"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 60,
+			Atk: 75,
+			Def: 85,
+			SpAtk: 100,
+			SpDef: 85,
+			Speed: 115
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
-	Scyther: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+	},
+	MrMime: {
+		Type: ["Psychic","Fairy"],
+		Ability:  ["Filter","Soundproof","Technician"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 40,
+			Atk: 45,
+			Def: 65,
+			SpAtk: 100,
+			SpDef: 120,
+			Speed: 90
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Scyther: {
+		Type: ["Bug","Flying"],
+		Ability:  ["Swarm","Technician","Steadfast"],
+		BaseStats: {
+			HP: 70,
+			Atk: 110,
+			Def: 80,
+			SpAtk: 55,
+			SpDef: 80,
+			Speed: 105
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Jynx: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Ice","Psychic"],
+		Ability:  ["Forewarn","Oblivious","Dry Skin"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 65,
+			Atk: 50,
+			Def: 35,
+			SpAtk: 115,
+			SpDef: 95,
+			Speed: 95
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Electabuzz: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Electric"],
+		Ability:  ["Static","Vital Spirit"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 65,
+			Atk: 83,
+			Def: 57,
+			SpAtk: 95,
+			SpDef: 85,
+			Speed: 105
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Magmar: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Fire"],
+		Ability:  ["Flame Body","Vital Spirit"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 65,
+			Atk: 95,
+			Def: 57,
+			SpAtk: 100,
+			SpDef: 85,
+			Speed: 93
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Pinsir: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Bug"],
+		Ability:  ["Hyper Cutter","Mold Breaker","Moxie"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 65,
+			Atk: 125,
+			Def: 100,
+			SpAtk: 55,
+			SpDef: 70,
+			Speed: 85
 		},
 		FormeChange: {
 			Possible: true,
 			Mega: {
 				N: {
-					Type: ["",""],
-					Ability: "",
+					Type: ["Bug","Flying"],
+					Ability: "Aerilate",
 					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
+						HP: 65,
+						Atk: 155,
+						Def: 120,
+						SpAtk: 65,
+						SpDef: 90,
+						Speed: 105
 					}
 				}
 			}
 		}
 	},
 	Tauros: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Normal"],
+		Ability:  ["Anger Point","Intimidate","Sheer Force"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 75,
+			Atk: 100,
+			Def: 95,
+			SpAtk: 40,
+			SpDef: 70,
+			Speed: 110
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Magikarp: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Water"],
+		Ability:  ["Swift Swim","Rattled"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 20,
+			Atk: 10,
+			Def: 55,
+			SpAtk: 15,
+			SpDef: 20,
+			Speed: 80
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Gyarados: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Water"],
+		Ability:  ["Intimidate","Moxie"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 95,
+			Atk: 125,
+			Def: 79,
+			SpAtk: 60,
+			SpDef: 100,
+			Speed: 81
 		},
 		FormeChange: {
 			Possible: true,
 			Mega: {
 				N: {
-					Type: ["",""],
-					Ability: "",
+					Type: ["Water","Dark"],
+					Ability: "Mold Breaker",
 					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
+						HP: 95,
+						Atk: 155,
+						Def: 109,
+						SpAtk: 70,
+						SpDef: 130,
+						Speed: 81
 					}
 				}
 			}
 		}
 	},
 	Lapras: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Water","Ice"],
+		Ability:  ["Shell Armor","Water Absorb","Hydration"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 130,
+			Atk: 85,
+			Def: 80,
+			SpAtk: 85,
+			SpDef: 95,
+			Speed: 60
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Ditto: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Normal"],
+		Ability:  ["Limber","Impostor"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 48,
+			Atk: 48,
+			Def: 48,
+			SpAtk: 48,
+			SpDef: 48,
+			Speed: 48
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Eevee: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Normal"],
+		Ability:  ["Adaptability","Run Away","Anticipation"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 55,
+			Atk: 55,
+			Def: 50,
+			SpAtk: 45,
+			SpDef: 65,
+			Speed: 55
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Vaporeon: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Water"],
+		Ability:  ["Water Absorb","Hydration","",""],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 130,
+			Atk: 65,
+			Def: 60,
+			SpAtk: 110,
+			SpDef: 95,
+			Speed: 65
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Jolteon: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Electric"],
+		Ability:  ["Volt Absorb","Quick Feet"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 65,
+			Atk: 65,
+			Def: 60,
+			SpAtk: 110,
+			SpDef: 95,
+			Speed: 130
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Flareon: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Fire"],
+		Ability:  ["Flash Fire","Guts"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 65,
+			Atk: 130,
+			Def: 60,
+			SpAtk: 95,
+			SpDef: 110,
+			Speed: 65
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Porygon: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Normal"],
+		Ability:  ["Download","Trace","Analytic"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 65,
+			Atk: 60,
+			Def: 70,
+			SpAtk: 85,
+			SpDef: 75,
+			Speed: 40
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Omanyte: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Rock","Water"],
+		Ability:  ["Shell Armor","Swift Swim","Weak Armor"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 35,
+			Atk: 40,
+			Def: 100,
+			SpAtk: 90,
+			SpDef: 55,
+			Speed: 35
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Omastar: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Rock","Water"],
+		Ability:  ["Shell Armor","Swift Swim","Weak Armor"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 70,
+			Atk: 60,
+			Def: 125,
+			SpAtk: 115,
+			SpDef: 70,
+			Speed: 55
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Kabuto: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Rock","Water"],
+		Ability:  ["Battle Armor","Swift Swim","Weak Armor"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 30,
+			Atk: 80,
+			Def: 90,
+			SpAtk: 55,
+			SpDef: 45,
+			Speed: 55
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Kabutops: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Rock","Water"],
+		Ability:  ["Battle Armor","Swift Swim","Weak Armor"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 60,
+			Atk: 115,
+			Def: 105,
+			SpAtk: 65,
+			SpDef: 70,
+			Speed: 80
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Aerodactyl: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Rock","Flying"],
+		Ability:  ["Pressure","Rock Head","Unnerve"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 80,
+			Atk: 105,
+			Def: 65,
+			SpAtk: 60,
+			SpDef: 75,
+			Speed: 130
 		},
 		FormeChange: {
 			Possible: true,
 			Mega: {
 				N: {
-					Type: ["",""],
-					Ability: "",
+					Type: ["Rock","Flying"],
+					Ability: "Tough Claws",
 					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
+						HP: 80,
+						Atk: 135,
+						Def: 85,
+						SpAtk: 70,
+						SpDef: 95,
+						Speed: 150
 					}
 				}
 			}
 		}
-	}
+	},
 	Snorlax: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Normal"],
+		Ability:  ["Immunity","Thick Fat","Gluttony"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 160,
+			Atk: 110,
+			Def: 65,
+			SpAtk: 65,
+			SpDef: 110,
+			Speed: 30
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Articuno: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Ice","Flying"],
+		Ability:  ["Pressure","Snow Cloak"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 90,
+			Atk: 85,
+			Def: 100,
+			SpAtk: 95,
+			SpDef: 125,
+			Speed: 85
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Zapdos: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Electric","Flying"],
+		Ability:  ["Pressure","Lightning Rod"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 90,
+			Atk: 90,
+			Def: 85,
+			SpAtk: 125,
+			SpDef: 90,
+			Speed: 100
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Moltres: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Fire","Flying"],
+		Ability:  ["Pressure","Flame Body"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 90,
+			Atk: 100,
+			Def: 90,
+			SpAtk: 125,
+			SpDef: 85,
+			Speed: 90
 		},
 		FormeChange: {
 			Possible: false
-			}
 		}
 	},
 	Dratini: {
-		Type: ["",""],
-		Abilities:  ["","","",""],
+		Type: ["Dragon"],
+		Ability:  ["Shed Skin","Marvel Scale"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 41,
+			Atk: 64,
+			Def: 45,
+			SpAtk: 50,
+			SpDef: 50,
+			Speed: 50
 		},
 		FormeChange: {
 			Possible: false
 		}
-	}
+	},
 	Dragonair: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Dragon"],
+		Ability:  ["Shed Skin","Marvel Scale"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 61,
+			Atk: 84,
+			Def: 65,
+			SpAtk: 70,
+			SpDef: 70,
+			Speed: 70
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Dragonite: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Dragon","Flying"],
+		Ability:  ["Inner Focus","Multiscale"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 91,
+			Atk: 134,
+			Def: 95,
+			SpAtk: 100,
+			SpDef: 100,
+			Speed: 80
 		},
 		FormeChange: {
 			Possible: false
 		}
 	},
 	Mewtwo: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Psychic"],
+		Ability:  ["Pressure","Unnerve"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 106,
+			Atk: 110,
+			Def: 90,
+			SpAtk: 154,
+			SpDef: 90,
+			Speed: 130
 		},
 		FormeChange: {
 			Possible: true,
 			Mega: {
 				X: {
-					Type: ["",""],
-					Ability: "",
+					Type: ["Psychic","Fighting"],
+					Ability: ["Steadfast"],
 					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
+						HP: 106,
+						Atk: 190,
+						Def: 100,
+						SpAtk: 154,
+						SpDef: 100,
+						Speed: 130
 					}
 				},
 				Y: {
-					Type: ["",""],
-					Ability: "",
+					Type: ["Psychic"],
+					Ability: ["Insomnia"],
 					BaseStats: {
-						HP: ,
-						Atk: ,
-						Def: ,
-						SpAtk: ,
-						SpDef: ,
-						Speed: 
+						HP: 106,
+						Atk: 150,
+						Def: 70,
+						SpAtk: 194,
+						SpDef: 120,
+						Speed: 140
 					}
 				}
 			}
 		}
 	},
 	Mew: {
-		Type: ["",""],
-		Abilities:  ["","",""],
+		Type: ["Psychic"],
+		Ability:  ["Synchronize"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 100,
+			Atk: 100,
+			Def: 100,
+			SpAtk: 100,
+			SpDef: 100,
+			Speed: 100
 		},
 		FormeChange: {
 			Possible: false

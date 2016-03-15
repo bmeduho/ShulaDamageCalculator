@@ -1,7 +1,9 @@
 var Abilities = {
 	/*Ability: {
+		Requirements: {
+			WhoStartsIt: "User/Opponent/Both",
+		},
 		Effect: {
-			WhoStarts: "User/Opponent/Both",
 			WhoItEffects: "User/Opponent/Both",
 			Move: {
 				EffectMove: true/false,
@@ -9,6 +11,9 @@ var Abilities = {
 				STAB: 1,
 				TypeChange: ["StartAs","ChangeTo"]
 			}
+		},
+		Exceptions: {
+			
 		}
 	},
 	*/

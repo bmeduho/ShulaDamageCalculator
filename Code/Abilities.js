@@ -1,6 +1,10 @@
 var Abilities = {
 	/*Ability: {
-		
+		Move: {
+			BP: .percentIncrease,
+			STAB: 1,
+			TypeChange: ["StartAs","ChangeTo"]
+		}
 	},
 	*/
 	Adaptability: {
@@ -10,8 +14,8 @@ var Abilities = {
 	},
 	Aerilate: {
 		Move: {
-			Type: ["Normal","Flying"],
-			BP: 1.30
+			BP: .30,
+			TypeChange: ["Normal","Flying"]
 		}
 	},
 Aftermath

@@ -2500,4 +2500,139 @@ var Pokemon = {
 			Possible: false
 		}
 	},
+	Chikorita: {
+		Type: ["Grass"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Bayleef: {
+		Type: ["Grass"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Meganium: {
+		Type: ["Grass"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Cyndaquil: {
+		Type: ["Fire"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Quilava: {
+		Type: ["Fire"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Typhlosion: {
+		Type: ["Fire"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Totodile: {
+		Type: ["Water"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Croconaw: {
+		Type: ["Water"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Feraligatr: {
+		Type: ["Water"],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
 };

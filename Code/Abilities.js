@@ -4,9 +4,16 @@ var Abilities = {
 	},
 	*/
 	Adaptability: {
-		
-	}
-Aerilate
+		Move: {
+			STAB: 2
+		}
+	},
+	Aerilate: {
+		Move: {
+			Type: ["Normal","Flying"],
+			BP: 1.30
+		}
+	},
 Aftermath
 Air Lock
 Analytic

@@ -2,24 +2,39 @@ var Abilities = {
 	/*Ability: {
 		Requirements: {
 			WhoStartsIt: "User/Opponent/Both",
+			UseMove: ["Type","Category","BP"],
+			Status: "Condition"
 		},
 		Effect: {
 			WhoItEffects: "User/Opponent/Both",
 			Move: {
 				EffectMove: true/false,
-				BP: .percentIncrease,
+				BP: PercentChange%,
 				STABChange: 1,
 				TypeChange: ["StartAs","ChangeTo"]
+			},
+			Pokemon: {
+				EffectPokemon: true/false,
+				HP: PercentChange%
+			},
+			Weather: {
+				EffectWeather: true/false,
+				ChangeTo: "",
+				WeatherEffects: "Remove/Allow"
 			}
 		},
 		Exceptions: {
-			AreThere: true/false
+			AreThere: true/false,
+			Abilities: ["Ability"],
+			Moves: [["Move",withinnumberturns]],
+			Items: [["Item","User/Opponent/Both"]]
 		}
 	},
 	*/
 	Adaptability: {
 		Requirements: {
 			WhoStartsIt: "User",
+			UseMove: ["STAB","Any","Any"]
 		},
 		Effect: {
 			WhoItEffects: "User",
@@ -35,12 +50,13 @@ var Abilities = {
 	Aerilate: {
 		Requirements: {
 			WhoStartsIt: "User",
+			UseMove: ["Normal","Any","Any"]
 		},
 		Effect: {
 			WhoItEffects: "User",
 			Move: {
 				EffectMove: true,
-				BP: .30,
+				BP: 30%,
 				TypeChange: ["Normal","Flying"]
 			}
 		},
@@ -50,22 +66,50 @@ var Abilities = {
 	},
 	Aftermath: {
 		Requirements: {
-			WhoStartsIt: "User/Opponent/Both",
+			WhoStartsIt: "User",
+			UseMove: ["Any","Physical","Any"],
+			Status: "Fainted"
 		},
 		Effect: {
-			WhoItEffects: "User/Opponent/Both",
+			WhoItEffects: "Opponent",
 			Move: {
-				EffectMove: true/false,
-				BP: .percentIncrease,
-				STAB: 1,
-				TypeChange: ["StartAs","ChangeTo"]
+				EffectMove: false
+			},
+			Pokemon: {
+				EffectPokemon: true,
+				HP: -25%
+			},
+			Weather: {
+				EffectWeather: false
 			}
 		},
 		Exceptions: {
-			AreThere: true/false
+			AreThere: true,
+			Abilities: ["Damp"]
 		}
 	}
-Air Lock
+	Air Lock: {
+		Requirements: {
+			WhoStartsIt: "Both"
+		},
+		Effect: {
+			WhoItEffects: "Both",
+			Move: {
+				EffectMove: false
+			},
+			Pokemon: {
+				EffectPokemon: false
+			},
+			Weather: {
+				EffectWeather: true,
+				ChangeTo: "Keep",
+				WeatherEffects: "Remove"
+			}
+		},
+		Exceptions: {
+			AreThere: false
+		}
+	},
 Analytic
 Anger Point
 Anticipation

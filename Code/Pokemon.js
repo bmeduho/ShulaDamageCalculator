@@ -15,7 +15,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["",""],
-					Ability: "",
+					Ability: [""],
 					BaseStats: {
 						HP: ,
 						Atk: ,
@@ -75,7 +75,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Grass","Poison"],
-					Ability: "Thick Fat",
+					Ability: ["Thick Fat"],
 					BaseStats: {
 						HP: 80,
 						Atk: 100,
@@ -134,7 +134,7 @@ var Pokemon = {
 			Mega: {
 				X: {
 					Type: ["Fire","Dragon"],
-					Ability: "Tough Claws",
+					Ability: ["Tough Claws"],
 					BaseStats: {
 						HP: 78,
 						Atk: 130,
@@ -146,7 +146,7 @@ var Pokemon = {
 				},
 				Y: {
 					Type: ["Fire","Flying"],
-					Ability: "Drought",
+					Ability: ["Drought"],
 					BaseStats: {
 						HP: 78,
 						Atk: 104,
@@ -205,7 +205,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Water"],
-					Ability: "Mega Launcher",
+					Ability: ["Mega Launcher"],
 					BaseStats: {
 						HP: 79,
 						Atk: 103,
@@ -309,7 +309,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Bug","Poison"],
-					Ability: "Adaptability",
+					Ability: ["Adaptability"],
 					BaseStats: {
 						HP: 65,
 						Atk: 150,
@@ -368,7 +368,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Normal","Flying"],
-					Ability: "No Guard",
+					Ability: ["No Guard"],
 					BaseStats: {
 						HP: 83,
 						Atk: 80,
@@ -1087,7 +1087,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Psychic"],
-					Ability: "Trace",
+					Ability: ["Trace"],
 					BaseStats: {
 						HP: 55,
 						Atk: 50,
@@ -1312,7 +1312,7 @@ var Pokemon = {
 	},
 	Slowbro: {
 		Type: ["Water","Psychic"],
-		Ability:  ["","",""],
+		Ability:  ["Oblivious","Own Tempo","Regenerator"],
 		BaseStats: {
 			HP: 95,
 			Atk: 75,
@@ -1326,7 +1326,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Water","Psychic"],
-					Ability: "Shell Armor",
+					Ability: ["Shell Armor"],
 					BaseStats: {
 						HP: 95,
 						Atk: 75,
@@ -1879,7 +1879,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Normal"],
-					Ability: "Parental Bond",
+					Ability: ["Parental Bond"],
 					BaseStats: {
 						HP: 105,
 						Atk: 125,
@@ -2073,7 +2073,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Bug","Flying"],
-					Ability: "Aerilate",
+					Ability: ["Aerilate"],
 					BaseStats: {
 						HP: 65,
 						Atk: 155,
@@ -2132,7 +2132,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Water","Dark"],
-					Ability: "Mold Breaker",
+					Ability: ["Mold Breaker"],
 					BaseStats: {
 						HP: 95,
 						Atk: 155,
@@ -2326,7 +2326,7 @@ var Pokemon = {
 			Mega: {
 				N: {
 					Type: ["Rock","Flying"],
-					Ability: "Tough Claws",
+					Ability: ["Tough Claws"],
 					BaseStats: {
 						HP: 80,
 						Atk: 135,

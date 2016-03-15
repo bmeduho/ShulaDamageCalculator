@@ -7,9 +7,24 @@ function MainStats (Level, Pokemon, Stat) {
 	return stat;
 }
 function Damage (Level, Pokemon, Move) {
-	var AtkStat = 
-	var stepOne = ((2 * Level / 5) + 2);
-	var stepTwo = 
+	switch (Move.Category) {
+		"Physical":
+			var NeededStats = ["Atk","Def"];
+			break;
+		"Special":
+			var NeededStats = ["SpAtk","SpDef"];
+			break;
+		"Status":
+			var NeededStats = [false];
+			break;
+	}
+	var AtkStat = MainStats(Level,Pokemon,NeededStats[0]);
+	var DefStat = MainStats(Level,Pokemon,NeededStats[1]);
+	var stepOne = (2 * Level / 5) + 2;
+	for (var i = 0; i < Move.BP.length; i++) {
+		var stepTwo = ((stepOne * AtkStat * Move.BP[i] / DefStat) / 50) + 2;
+	}
+	var STAB = 
 }
 
 

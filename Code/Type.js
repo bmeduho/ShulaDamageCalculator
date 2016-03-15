@@ -1,5 +1,5 @@
 var Types = {
-	/*
+	/* "Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"
 	Name: {
 		Strong: [],
 		Weak: [],
@@ -52,9 +52,9 @@ var Types = {
 		Immune: ["Flying"]
 	},
 	Flying: {
-		Strong: [],
-		Weak: [],
-		Immune: []
+		Strong: ["Grass","Fighting","Bug"],
+		Weak: ["Electric","Rock","Steel"],
+		Immune: [false]
 	},
 	Psychic: {
 		Strong: [],
@@ -64,12 +64,12 @@ var Types = {
 	Bug: {
 		Strong: [],
 		Weak: [],
-		Immune: []
+		Immune: [false]
 	},
 	Rock: {
 		Strong: [],
 		Weak: [],
-		Immune: []
+		Immune: [false]
 	},
 	Ghost: {
 		Strong: [],
@@ -84,16 +84,16 @@ var Types = {
 	Dark: {
 		Strong: [],
 		Weak: [],
-		Immune: []
+		Immune: [false]
 	},
 	Steel: {
 		Strong: [],
 		Weak: [],
-		Immune: []
+		Immune: [false]
 	},
 	Fairy: {
 		Strong: [],
 		Weak: [],
-		Immune: []
+		Immune: [false]
 	}
 }

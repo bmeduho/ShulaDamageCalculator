@@ -72,13 +72,13 @@ var Types = {
 		Immune: [false]
 	},
 	Ghost: {
-		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
-		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Strong: ["Psychic","Ghost"],
+		Weak: ["Dark"],
 		Immune: ["Normal"]
 	},
 	Dragon: {
-		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
-		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Strong: ["Dragon"],
+		Weak: ["Steel"],
 		Immune: ["Fairy"]
 	},
 	Dark: {

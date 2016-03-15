@@ -1,8 +1,8 @@
 function HPStat (Level, Pokemon) {
-	
+	((Pokemon.BaseStats.HP * 2) * Level / 100) + 10 + Level
 }
 function MainStats (Level, Pokemon, Stat) {
-	
+	((Pokemon.BaseStats.Stat * 2) * Level / 100) + 5
 }
 function Damage (Level, Pokemon, Move) {
 	var AtkStat = 
@@ -14,9 +14,3 @@ function Damage (Level, Pokemon, Move) {
 
 Damage
 	((((2 * Level / 5 + 2) * AttackStat * AttackPower / DefenseStat) / 50) + 2) * STAB * Weakness/Resistance * RandomNumber / 100
-
-Hit Points:
-        ( (IV + 2 * BaseStat + (EV/4) ) * Level/100 ) + 10 + Level
-
-Attack, Defense, Speed, Sp. Attack, Sp. Defense:
-        (((IV + 2 * BaseStat + (EV/4) ) * Level/100 ) + 5)

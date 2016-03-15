@@ -74,12 +74,12 @@ var Types = {
 	Ghost: {
 		Strong: [],
 		Weak: [],
-		Immune: []
+		Immune: ["Normal"]
 	},
 	Dragon: {
 		Strong: [],
 		Weak: [],
-		Immune: []
+		Immune: ["Fairy"]
 	},
 	Dark: {
 		Strong: [],

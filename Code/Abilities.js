@@ -2,7 +2,8 @@ var Abilities = {
 	/*Ability: {
 		Requirements: {
 			WhoStartsIt: "User/Opponent/Both",
-			UseMove: ["Type","Category","BP"],
+			UseMove: ["Type","Category","BP","First/Last/Either"],
+			HitBy: ["Type","Category","BP","First/Last/Either"],
 			Status: "Condition"
 		},
 		Effect: {
@@ -34,7 +35,7 @@ var Abilities = {
 	Adaptability: {
 		Requirements: {
 			WhoStartsIt: "User",
-			UseMove: ["STAB","Any","Any"]
+			UseMove: ["STAB","Any","Any","Either"]
 		},
 		Effect: {
 			WhoItEffects: "User",
@@ -50,7 +51,7 @@ var Abilities = {
 	Aerilate: {
 		Requirements: {
 			WhoStartsIt: "User",
-			UseMove: ["Normal","Any","Any"]
+			UseMove: ["Normal","Any","Any","Either"]
 		},
 		Effect: {
 			WhoItEffects: "User",
@@ -67,7 +68,7 @@ var Abilities = {
 	Aftermath: {
 		Requirements: {
 			WhoStartsIt: "User",
-			UseMove: ["Any","Physical","Any"],
+			UseMove: ["Any","Physical","Any","Either"],
 			Status: "Fainted"
 		},
 		Effect: {
@@ -110,7 +111,37 @@ var Abilities = {
 			AreThere: false
 		}
 	},
-Analytic
+	Analytic: {
+		Requirements: {
+			WhoStartsIt: "User",
+			UseMove: ["Type","Category","BP","Last"],
+			Status: "Condition"
+		},
+		Effect: {
+			WhoItEffects: "User/Opponent/Both",
+			Move: {
+				EffectMove: true/false,
+				BP: PercentChange%,
+				STABChange: 1,
+				TypeChange: ["StartAs","ChangeTo"]
+			},
+			Pokemon: {
+				EffectPokemon: true/false,
+				HP: PercentChange%
+			},
+			Weather: {
+				EffectWeather: true/false,
+				ChangeTo: "",
+				WeatherEffects: "Remove/Allow"
+			}
+		},
+		Exceptions: {
+			AreThere: true/false,
+			Abilities: ["Ability"],
+			Moves: [["Move",withinnumberturns]],
+			Items: [["Item","User/Opponent/Both"]]
+		}
+	},
 Anger Point
 Anticipation
 Arena Trap

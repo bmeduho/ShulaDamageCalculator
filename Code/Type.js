@@ -31,4 +31,34 @@ var Types = {
 		Weak: ["Fire","Grass","Poison","Fire","Bug","Dragon","Steel"],
 		Immune: [false]
 	},
+	Ice: {
+		Strong: ["Grass","Ground","FLying","Dragon"],
+		Weak: ["Fire","Water","Ice","Steel"],
+		Immune: [false]
+	},
+	Fighting: {
+		Strong: ["Normal","Ice","Rock","Dark","Steel"],
+		Weak: ["Poison","Flying","Psychic","Bug","Fairy"],
+		Immune: ["Ghost"]
+	},
+	Poison: {
+		Strong: ["Grass","Fairy"],
+		Weak: ["Poison","Ground","Rock","Ghost"],
+		Immune: ["Steel"]
+	},
+	Ground: {
+		Strong: [],
+		Weak: [],
+		Immune: []
+	},
+	Flying: {
+		Strong: [],
+		Weak: [],
+		Immune: []
+	},
+	Psychic: {
+		Strong: [],
+		Weak: [],
+		Immune: []
+	},
 }

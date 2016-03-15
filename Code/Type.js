@@ -82,18 +82,18 @@ var Types = {
 		Immune: ["Fairy"]
 	},
 	Dark: {
-		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
-		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Strong: ["Psychic","Ghost"],
+		Weak: ["Fighting","Dark","Fairy"],
 		Immune: [false]
 	},
 	Steel: {
-		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
-		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Strong: ["Ice","Rock","Fairy"],
+		Weak: ["Fire","Water","Electric","Steel"],
 		Immune: [false]
 	},
 	Fairy: {
-		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
-		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Strong: ["Fighting","Dragon","Dark"],
+		Weak: ["Fire","Poison","Steel"],
 		Immune: [false]
 	}
 }

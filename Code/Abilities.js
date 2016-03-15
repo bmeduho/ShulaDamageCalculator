@@ -1,24 +1,41 @@
 var Abilities = {
 	/*Ability: {
-		Move: {
-			BP: .percentIncrease,
-			STAB: 1,
-			TypeChange: ["StartAs","ChangeTo"]
+		Effect: {
+			WhoStarts: "User/Opponent/Both",
+			WhoItEffects: "User/Opponent/Both",
+			Move: {
+				EffectMove: true/false,
+				BP: .percentIncrease,
+				STAB: 1,
+				TypeChange: ["StartAs","ChangeTo"]
+			}
 		}
 	},
 	*/
 	Adaptability: {
-		Move: {
-			STAB: 2
+		Effect: {
+			WhoStarts: "User",
+			WhoItEffects: "User",
+			Move: {
+				EffectMove: true,
+				STAB: 2
+			}
 		}
 	},
 	Aerilate: {
-		Move: {
-			BP: .30,
-			TypeChange: ["Normal","Flying"]
+		Effect: {
+			WhoStarts: "User",
+			WhoItEffects: "User",
+			Move: {
+				EffectMove: true,
+				BP: .30,
+				TypeChange: ["Normal","Flying"]
+			}
 		}
 	},
-Aftermath
+	Aftermath: {
+		
+	}
 Air Lock
 Analytic
 Anger Point

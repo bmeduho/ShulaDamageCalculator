@@ -49,7 +49,21 @@ var Abilities = {
 		}
 	},
 	Aftermath: {
-		
+		Requirements: {
+			WhoStartsIt: "User/Opponent/Both",
+		},
+		Effect: {
+			WhoItEffects: "User/Opponent/Both",
+			Move: {
+				EffectMove: true/false,
+				BP: .percentIncrease,
+				STAB: 1,
+				TypeChange: ["StartAs","ChangeTo"]
+			}
+		},
+		Exceptions: {
+			AreThere: true/false
+		}
 	}
 Air Lock
 Analytic

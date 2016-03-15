@@ -2502,14 +2502,14 @@ var Pokemon = {
 	},
 	Chikorita: {
 		Type: ["Grass"],
-		Ability:  ["","",""],
+		Ability:  ["Overgrow","Leaf Guard"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 45,
+			Atk: 49,
+			Def: 65,
+			SpAtk: 49,
+			SpDef: 65,
+			Speed: 45
 		},
 		FormeChange: {
 			Possible: false
@@ -2517,14 +2517,14 @@ var Pokemon = {
 	},
 	Bayleef: {
 		Type: ["Grass"],
-		Ability:  ["","",""],
+		Ability:  ["Overgrow","Leaf Guard"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 60,
+			Atk: 62,
+			Def: 80,
+			SpAtk: 63,
+			SpDef: 80,
+			Speed: 60
 		},
 		FormeChange: {
 			Possible: false
@@ -2532,14 +2532,14 @@ var Pokemon = {
 	},
 	Meganium: {
 		Type: ["Grass"],
-		Ability:  ["","",""],
+		Ability:  ["Overgrow","Leaf Guard"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 80,
+			Atk: 82,
+			Def: 100,
+			SpAtk: 83,
+			SpDef: 100,
+			Speed: 80
 		},
 		FormeChange: {
 			Possible: false
@@ -2547,14 +2547,14 @@ var Pokemon = {
 	},
 	Cyndaquil: {
 		Type: ["Fire"],
-		Ability:  ["","",""],
+		Ability:  ["Blaze","Flash Fire"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 39,
+			Atk: 52,
+			Def: 43,
+			SpAtk: 60,
+			SpDef: 50,
+			Speed: 65
 		},
 		FormeChange: {
 			Possible: false
@@ -2562,14 +2562,14 @@ var Pokemon = {
 	},
 	Quilava: {
 		Type: ["Fire"],
-		Ability:  ["","",""],
+		Ability:  ["Blaze","Flash Fire"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 58,
+			Atk: 64,
+			Def: 58,
+			SpAtk: 80,
+			SpDef: 65,
+			Speed: 80
 		},
 		FormeChange: {
 			Possible: false
@@ -2577,14 +2577,14 @@ var Pokemon = {
 	},
 	Typhlosion: {
 		Type: ["Fire"],
-		Ability:  ["","",""],
+		Ability:  ["Blaze","Flash Fire"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 78,
+			Atk: 84,
+			Def: 78,
+			SpAtk: 109,
+			SpDef: 85,
+			Speed: 100
 		},
 		FormeChange: {
 			Possible: false
@@ -2592,14 +2592,14 @@ var Pokemon = {
 	},
 	Totodile: {
 		Type: ["Water"],
-		Ability:  ["","",""],
+		Ability:  ["Torrent","Sheer Force"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 50,
+			Atk: 65,
+			Def: 64,
+			SpAtk: 44,
+			SpDef: 48,
+			Speed: 43
 		},
 		FormeChange: {
 			Possible: false
@@ -2607,14 +2607,14 @@ var Pokemon = {
 	},
 	Croconaw: {
 		Type: ["Water"],
-		Ability:  ["","",""],
+		Ability:  ["Torrent","Sheer Force"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 65,
+			Atk: 80,
+			Def: 80,
+			SpAtk: 59,
+			SpDef: 63,
+			Speed: 58
 		},
 		FormeChange: {
 			Possible: false
@@ -2622,14 +2622,14 @@ var Pokemon = {
 	},
 	Feraligatr: {
 		Type: ["Water"],
-		Ability:  ["","",""],
+		Ability:  ["Torrent","Sheer Force"],
 		BaseStats: {
-			HP: ,
-			Atk: ,
-			Def: ,
-			SpAtk: ,
-			SpDef: ,
-			Speed: 
+			HP: 85,
+			Atk: 105,
+			Def: 100,
+			SpAtk: 79,
+			SpDef: 83,
+			Speed: 78
 		},
 		FormeChange: {
 			Possible: false

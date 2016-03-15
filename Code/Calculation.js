@@ -1,8 +1,10 @@
 function HPStat (Level, Pokemon) {
-	((Pokemon.BaseStats.HP * 2) * Level / 100) + 10 + Level
+	var stat = ((Pokemon.BaseStats.HP * 2) * Level / 100) + 10 + Level;
+	return stat;
 }
 function MainStats (Level, Pokemon, Stat) {
-	((Pokemon.BaseStats.Stat * 2) * Level / 100) + 5
+	var stat = ((Pokemon.BaseStats.Stat * 2) * Level / 100) + 5;
+	return stat;
 }
 function Damage (Level, Pokemon, Move) {
 	var AtkStat = 

@@ -63,12 +63,12 @@ var Types = {
 	},
 	Bug: {
 		Strong: ["Grass","Psychic","Dark"],
-		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Weak: ["Fire","Fighting","Poison","Flying","Ghost","Steel","Fairy"],
 		Immune: [false]
 	},
 	Rock: {
-		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
-		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Strong: ["Fire","Ice","Flying","Bug"],
+		Weak: ["Fighting","Ground","Steel"],
 		Immune: [false]
 	},
 	Ghost: {

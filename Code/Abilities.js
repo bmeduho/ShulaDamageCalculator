@@ -8,7 +8,7 @@ var Abilities = {
 			Move: {
 				EffectMove: true/false,
 				BP: .percentIncrease,
-				STAB: 1,
+				STABChange: 1,
 				TypeChange: ["StartAs","ChangeTo"]
 			}
 		},
@@ -25,7 +25,7 @@ var Abilities = {
 			WhoItEffects: "User",
 			Move: {
 				EffectMove: true,
-				STAB: 2
+				STABChange: 2
 			}
 		},
 		Exceptions: {

@@ -57,43 +57,43 @@ var Types = {
 		Immune: [false]
 	},
 	Psychic: {
-		Strong: [],
-		Weak: [],
+		Strong: ["Fighting","Poison"],
+		Weak: ["Psychic","Steel"],
 		Immune: ["Dark"]
 	},
 	Bug: {
-		Strong: [],
-		Weak: [],
+		Strong: ["Grass","Psychic","Dark"],
+		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
 		Immune: [false]
 	},
 	Rock: {
-		Strong: [],
-		Weak: [],
+		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
 		Immune: [false]
 	},
 	Ghost: {
-		Strong: [],
-		Weak: [],
+		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
 		Immune: ["Normal"]
 	},
 	Dragon: {
-		Strong: [],
-		Weak: [],
+		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
 		Immune: ["Fairy"]
 	},
 	Dark: {
-		Strong: [],
-		Weak: [],
+		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
 		Immune: [false]
 	},
 	Steel: {
-		Strong: [],
-		Weak: [],
+		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
 		Immune: [false]
 	},
 	Fairy: {
-		Strong: [],
-		Weak: [],
+		Strong: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
+		Weak: ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"],
 		Immune: [false]
 	}
 }

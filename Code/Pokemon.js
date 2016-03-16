@@ -2635,4 +2635,938 @@ var Pokemon = {
 			Possible: false
 		}
 	},
+	Sentret: {
+		Type: ["Normal"],
+		Ability:  ["Keen Eye","Run Away","Frisk"],
+		BaseStats: {
+			HP: 35,
+			Atk: 46,
+			Def: 34,
+			SpAtk: 35,
+			SpDef: 45,
+			Speed: 20
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Furret: {
+		Type: ["Normal"],
+		Ability:  ["Keen Eye","Run Away","Frisk"],
+		BaseStats: {
+			HP: 85,
+			Atk: 76,
+			Def: 64,
+			SpAtk: 45,
+			SpDef: 55,
+			Speed: 90
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Hoothoot: {
+		Type: ["Normal","Flying"],
+		Ability:  ["Insomnia","Keen Eye","Tinted Lens"],
+		BaseStats: {
+			HP: 60,
+			Atk: 30,
+			Def: 30,
+			SpAtk: 36,
+			SpDef: 56,
+			Speed: 50
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Noctowl: {
+		Type: ["Normal","Flying"],
+		Ability:  ["Insomnia","Keen Eye","Tinted Lens"],
+		BaseStats: {
+			HP: 100,
+			Atk: 50,
+			Def: 50,
+			SpAtk: 76,
+			SpDef: 96,
+			Speed: 70
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Ledyba: {
+		Type: ["Bug","Flying"],
+		Ability:  ["Early Bird","Swarm","Rattled"],
+		BaseStats: {
+			HP: 40,
+			Atk: 20,
+			Def: 30,
+			SpAtk: 40,
+			SpDef: 80,
+			Speed: 55
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Ledian: {
+		Type: ["Bug","Flying"],
+		Ability:  ["Early Bird","Swarm","Iron Fist"],
+		BaseStats: {
+			HP: 55,
+			Atk: 35,
+			Def: 50,
+			SpAtk: 55,
+			SpDef: 110,
+			Speed: 85
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Spinarak: {
+		Type: ["Bug","Poison"],
+		Ability:  ["Insomnia","Swarm","Sniper"],
+		BaseStats: {
+			HP: 40,
+			Atk: 60,
+			Def: 40,
+			SpAtk: 40,
+			SpDef: 40,
+			Speed: 30
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Ariados: {
+		Type: ["Bug","Poison"],
+		Ability:  ["Insomnia","Swarm","Sniper"],
+		BaseStats: {
+			HP: 70,
+			Atk: 90,
+			Def: 70,
+			SpAtk: 60,
+			SpDef: 60,
+			Speed: 40
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Crobat: {
+		Type: ["Poison","Flying"],
+		Ability:  ["Inner Focus","Infiltrator"],
+		BaseStats: {
+			HP: 85,
+			Atk: 90,
+			Def: 80,
+			SpAtk: 70,
+			SpDef: 80,
+			Speed: 130
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	/*Chinchou: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Lanturn: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Pichu: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Cleffa: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Igglybuff: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Togepi: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Togetic: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Natu: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Xatu: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Mareep: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Flaaffy: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: false
+		}
+	},
+	Ampharos: {
+		Type: ["",""],
+		Ability:  ["","",""],
+		BaseStats: {
+			HP: ,
+			Atk: ,
+			Def: ,
+			SpAtk: ,
+			SpDef: ,
+			Speed: 
+		},
+		FormeChange: {
+			Possible: true,
+			Mega: {
+				N: {
+					Type: ["",""],
+					Ability: [""],
+					BaseStats: {
+						HP: ,
+						Atk: ,
+						Def: ,
+						SpAtk: ,
+						SpDef: ,
+						Speed: 
+					}
+				}
+			}
+		}
+	},
+	
+Bellossom
+Marill
+Azumarill
+Sudowoodo
+Politoed
+Hoppip
+Skiploom
+Jumpluff
+Aipom
+Sunkern
+Sunflora
+Yanma
+Wooper
+Quagsire
+Espeon
+Umbreon
+Murkrow
+Slowking
+Misdreavus
+Unown
+Wobbuffet
+Girafarig
+Pineco
+Forretress
+Dunsparce
+Gligar
+Steelix
+Steelix
+Snubbull
+Granbull
+Qwilfish
+Scizor
+Scizor
+Shuckle
+Heracross
+Heracross
+Sneasel
+Teddiursa
+Ursaring
+Slugma
+Magcargo
+Swinub
+Piloswine
+Corsola
+Remoraid
+Octillery
+Delibird
+Mantine
+Skarmory
+Houndour
+Houndoom
+Houndoom
+Kingdra
+Phanpy
+Donphan
+Porygon2
+Stantler
+Smeargle
+Tyrogue
+Hitmontop
+Smoochum
+Elekid
+Magby
+Miltank
+Blissey
+Raikou
+Entei
+Suicune
+Larvitar
+Pupitar
+Tyranitar
+Tyranitar
+Lugia
+Ho-Oh
+Celebi
+Treecko
+Grovyle
+Sceptile
+Sceptile
+Torchic
+Combusken
+Blaziken
+Blaziken
+Mudkip
+Marshtomp
+Swampert
+Swampert
+Poochyena
+Mightyena
+Zigzagoon
+Linoone
+Wurmple
+Silcoon
+Beautifly
+Cascoon
+Dustox
+Lotad
+Lombre
+Ludicolo
+Seedot
+Nuzleaf
+Shiftry
+Taillow
+Swellow
+Wingull
+Pelipper
+Ralts
+Kirlia
+Gardevoir
+Gardevoir
+Surskit
+Masquerain
+Shroomish
+Breloom
+Slakoth
+Vigoroth
+Slaking
+Nincada
+Ninjask
+Shedinja
+Whismur
+Loudred
+Exploud
+Makuhita
+Hariyama
+Azurill
+Nosepass
+Skitty
+Delcatty
+Sableye
+Sableye
+Mawile
+Mawile
+Aron
+Lairon
+Aggron
+Aggron
+Meditite
+Medicham
+Medicham
+Electrike
+Manectric
+Manectric
+Plusle
+Minun
+Volbeat
+Illumise
+Roselia
+Gulpin
+Swalot
+Carvanha
+Sharpedo
+Sharpedo
+Wailmer
+Wailord
+Numel
+Camerupt
+Camerupt
+Torkoal
+Spoink
+Grumpig
+Spinda
+Trapinch
+Vibrava
+Flygon
+Cacnea
+Cacturne
+Swablu
+Altaria
+Altaria
+Zangoose
+Seviper
+Lunatone
+Solrock
+Barboach
+Whiscash
+Corphish
+Crawdaunt
+Baltoy
+Claydol
+Lileep
+Cradily
+Anorith
+Armaldo
+Feebas
+Milotic
+Castform
+Castform
+Castform
+Castform
+Kecleon
+Shuppet
+Banette
+Banette
+Duskull
+Dusclops
+Tropius
+Chimecho
+Absol
+Absol
+Wynaut
+Snorunt
+Glalie
+Glalie
+Spheal
+Sealeo
+Walrein
+Clamperl
+Huntail
+Gorebyss
+Relicanth
+Luvdisc
+Bagon
+Shelgon
+Salamence
+Salamence
+Beldum
+Metang
+Metagross
+Metagross
+Regirock
+Regice
+Registeel
+Latias
+Latias
+Latios
+Latios
+Kyogre
+Kyogre
+Groudon
+Groudon
+Rayquaza
+Rayquaza
+Jirachi
+Deoxys
+Deoxys
+Deoxys
+Deoxys
+Turtwig
+Grotle
+Torterra
+Chimchar
+Monferno
+Infernape
+Piplup
+Prinplup
+Empoleon
+Starly
+Staravia
+Staraptor
+Bidoof
+Bibarel
+Kricketot
+Kricketune
+Shinx
+Luxio
+Luxray
+Budew
+Roserade
+Cranidos
+Rampardos
+Shieldon
+Bastiodon
+Burmy
+Wormadam
+Wormadam
+Wormadam
+Mothim
+Combee
+Vespiquen
+Pachirisu
+Buizel
+Floatzel
+Cherubi
+Cherrim
+Shellos
+Gastrodon
+Ambipom
+Drifloon
+Drifblim
+Buneary
+Lopunny
+Lopunny
+Mismagius
+Honchkrow
+Glameow
+Purugly
+Chingling
+Stunky
+Skuntank
+Bronzor
+Bronzong
+Bonsly
+Mime Jr.
+Happiny
+Chatot
+Spiritomb
+Gible
+Gabite
+Garchomp
+Garchomp
+Munchlax
+Riolu
+Lucario
+Lucario
+Hippopotas
+Hippowdon
+Skorupi
+Drapion
+Croagunk
+Toxicroak
+Carnivine
+Finneon
+Lumineon
+Mantyke
+Snover
+Abomasnow
+Abomasnow
+Weavile
+Magnezone
+Lickilicky
+Rhyperior
+Tangrowth
+Electivire
+Magmortar
+Togekiss
+Yanmega
+Leafeon
+Glaceon
+Gliscor
+Mamoswine
+Porygon-Z
+Gallade
+Gallade
+Probopass
+Dusknoir
+Froslass
+Rotom
+Rotom
+Rotom
+Rotom
+Rotom
+Rotom
+Uxie
+Mesprit
+Azelf
+Dialga
+Palkia
+Heatran
+Regigigas
+Giratina
+Giratina
+Cresselia
+Phione
+Manaphy
+Darkrai
+Shaymin
+Shaymin
+Arceus
+Victini
+Snivy
+Servine
+Serperior
+Tepig
+Pignite
+Emboar
+Oshawott
+Dewott
+Samurott
+Patrat
+Watchog
+Lillipup
+Herdier
+Stoutland
+Purrloin
+Liepard
+Pansage
+Simisage
+Pansear
+Simisear
+Panpour
+Simipour
+Munna
+Musharna
+Pidove
+Tranquill
+Unfezant
+Blitzle
+Zebstrika
+Roggenrola
+Boldore
+Gigalith
+Woobat
+Swoobat
+Drilbur
+Excadrill
+Audino
+Audino
+Timburr
+Gurdurr
+Conkeldurr
+Tympole
+Palpitoad
+Seismitoad
+Throh
+Sawk
+Sewaddle
+Swadloon
+Leavanny
+Venipede
+Whirlipede
+Scolipede
+Cottonee
+Whimsicott
+Petilil
+Lilligant
+Basculin
+Sandile
+Krokorok
+Krookodile
+Darumaka
+Darmanitan
+Darmanitan
+Maractus
+Dwebble
+Crustle
+Scraggy
+Scrafty
+Sigilyph
+Yamask
+Cofagrigus
+Tirtouga
+Carracosta
+Archen
+Archeops
+Trubbish
+Garbodor
+Zorua
+Zoroark
+Minccino
+Cinccino
+Gothita
+Gothorita
+Gothitelle
+Solosis
+Duosion
+Reuniclus
+Ducklett
+Swanna
+Vanillite
+Vanillish
+Vanilluxe
+Deerling
+Sawsbuck
+Emolga
+Karrablast
+Escavalier
+Foongus
+Amoonguss
+Frillish
+Jellicent
+Alomomola
+Joltik
+Galvantula
+Ferroseed
+Ferrothorn
+Klink
+Klang
+Klinklang
+Tynamo
+Eelektrik
+Eelektross
+Elgyem
+Beheeyem
+Litwick
+Lampent
+Chandelure
+Axew
+Fraxure
+Haxorus
+Cubchoo
+Beartic
+Cryogonal
+Shelmet
+Accelgor
+Stunfisk
+Mienfoo
+Mienshao
+Druddigon
+Golett
+Golurk
+Pawniard
+Bisharp
+Bouffalant
+Rufflet
+Braviary
+Vullaby
+Mandibuzz
+Heatmor
+Durant
+Deino
+Zweilous
+Hydreigon
+Larvesta
+Volcarona
+Cobalion
+Terrakion
+Virizion
+Tornadus
+Tornadus
+Thundurus
+Thundurus
+Reshiram
+Zekrom
+Landorus
+Landorus
+Kyurem
+Kyurem
+Kyurem
+Keldeo
+Meloetta
+Meloetta
+Genesect
+Chespin
+Quilladin
+Chesnaught
+Fennekin
+Braixen
+Delphox
+Froakie
+Frogadier
+Greninja
+Bunnelby
+Diggersby
+Fletchling
+Fletchinder
+Talonflame
+Scatterbug
+Spewpa
+Vivillon
+Litleo
+Pyroar
+Flabébé
+Floette
+Florges
+Skiddo
+Gogoat
+Pancham
+Pangoro
+Furfrou
+Espurr
+Meowstic
+Honedge
+Doublade
+Aegislash
+Aegislash
+Spritzee
+Aromatisse
+Swirlix
+Slurpuff
+Inkay
+Malamar
+Binacle
+Barbaracle
+Skrelp
+Dragalge
+Clauncher
+Clawitzer
+Helioptile
+Heliolisk
+Tyrunt
+Tyrantrum
+Amaura
+Aurorus
+Sylveon
+Hawlucha
+Dedenne
+Carbink
+Goomy
+Sliggoo
+Goodra
+Klefki
+Phantump
+Trevenant
+Pumpkaboo
+Pumpkaboo
+Pumpkaboo
+Pumpkaboo
+Gourgeist
+Gourgeist
+Gourgeist
+Gourgeist
+Bergmite
+Avalugg
+Noibat
+Noivern
+Xerneas
+Yveltal
+Zygarde
+Diancie
+Diancie
+Hoopa
+Hoopa
+Volcanion*/
 };

@@ -2,8 +2,104 @@
 <html>
 	<head>
 		<title>Shula Damage Calculator</title>
+		<link rel="stylesheet" type="text/css" href="CSS.css"/>
+		<script src="Code/SaveLoad.js"></script>
+		<script src="Code/Pokemon.js"></script>
 	</head>
 	<body>
-		
+		<div id="SaveTab" class="tab">Save/Load</div>
+		<div id="PokemonTab" class="tab">Pokemon</div>
+		<div id="BattleTab" class="tab">Battle</div>
+		<div id="SaveScreen" class="screen">
+			<table>
+				<tr>
+					<td>
+						Save One
+						<form>
+							<button>New</button>
+							<button>Save</button>
+							<button>Load</button>
+						</form>
+					</td>
+					<td>Save</td>
+				</tr>
+				<tr>
+					<td>Save</td>
+					<td>Save</td>
+				</tr>
+				<tr>
+					<td>Save</td>
+					<td>Save</td>
+				</tr>
+			</table>
+		</div>
+		<div id="PokemonScreen" class="screen">
+			<table>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td>1</td>
+								<td rowspan="6">Team1</td>
+							</tr>
+							<tr>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>4</td>
+							</tr>
+							<tr>
+								<td>5</td>
+							</tr>
+							<tr>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td>7</td>
+								<td rowspan="6">Team2</td>
+							</tr>
+							<tr>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>9</td>
+							</tr>
+							<tr>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>11</td>
+							</tr>
+							<tr>
+								<td>12</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<form>
+							Species: <input type="text" list="PSpecies" name="PokeSpecies">
+							<br/>
+							Level: <input type="number" name="PokeLevel" min="1" max="100">
+							<br/>
+							Gender: <input type="text" list="PGender" name="PokeGender">
+							<datalist id="PSpecies">
+							</datalist>
+							<datalist id="PGender">
+								<option value="Male">
+								<option value="Female">
+								<option value="Genderless">
+							</datalist>
+						</form>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<div id="BattleScreen" class="screen"></div>
+		<script src="Code/HandleOnClick.js"></script>
+		<script src="Code/HandlePageLoading.js"></script>
 	</body>
 </html>
